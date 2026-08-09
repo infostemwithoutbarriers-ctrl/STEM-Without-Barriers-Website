@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Article | STEM Without Barriers</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blog.css">
+
+</head>
+
+
+<body>
+
+
+<!-- =========================
+     NAVIGATION
+========================= -->
+
+<header class="site-header">
+
+    <div class="nav-container">
+
+        <a href="index.html" class="logo">
+            STEM Without Barriers
+        </a>
+
+        <nav class="main-nav">
+
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="impact.html">Our Impact</a>
+            <a href="programs.html">Our Programs</a>
+            <a href="involved.html">Get Involved</a>
+            <a href="resources.html">Resources</a>
+            <a href="blog.html" class="active">Blog</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="lumi.html">Meet Lumi</a>
+
+            <a href="volunteer.html" class="nav-button">
+                Volunteer
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<!-- =========================
+     ARTICLE
+========================= -->
+
+<main class="article-page">
+
+    <div class="article-container">
+
+        <a
+            href="blog.html"
+            class="back-to-blog"
+        >
+            ← Back to Blog
+        </a>
+
+
+        <div id="articleCategory"></div>
+
+
+        <h1 id="articleTitle">
+            Loading article...
+        </h1>
+
+
+        <div
+            class="article-page-meta"
+            id="articleMeta"
+        >
+        </div>
+
+
+        <div
+            class="article-hero-image"
+            id="articleImage"
+        >
+        </div>
+
+
+        <article
+            class="article-body"
+            id="articleBody"
+        >
+        </article>
+
+
+        <div class="article-bottom">
+
+            <a href="blog.html">
+                ← Explore More Articles
+            </a>
+
+        </div>
+
+    </div>
+
+</main>
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer class="site-footer">
+
+    <div class="footer-container">
+
+        <div class="footer-brand">
+
+            <h2>
+                STEM Without Barriers
+            </h2>
+
+            <p>
+                Making STEM more accessible, engaging,
+                and inclusive for everyone.
+            </p>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <div>
+
+                <h3>Explore</h3>
+
+                <a href="about.html">About Us</a>
+                <a href="programs.html">Programs</a>
+                <a href="impact.html">Our Impact</a>
+                <a href="blog.html">Blog</a>
+
+            </div>
+
+
+            <div>
+
+                <h3>Get Involved</h3>
+
+                <a href="involved.html">Volunteer</a>
+                <a href="resources.html">Resources</a>
+                <a href="contact.html">Contact Us</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 STEM Without Barriers. All rights reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="blog.js"></script>
+
+
+<script>
+
+/* =========================================================
+   LOAD SELECTED ARTICLE
+========================================================= */
+
+const params =
+    new URLSearchParams(window.location.search);
+
+const articleID =
+    params.get("article");
+
+
+const selectedArticle =
+    articles.find(
+        article => article.id === articleID
+    );
+
+
+if (selectedArticle) {
+
+    document.title =
+        `${selectedArticle.title} | STEM Without Barriers`;
+
+
+    document.getElementById(
+        "articleCategory"
+    ).innerHTML = `
+
+        <span class="article-page-category">
+            ${selectedArticle.category}
+        </span>
+
+    `;
+
+
+    document.getElementById(
+        "articleTitle"
+    ).textContent =
+        selectedArticle.title;
+
+
+    document.getElementById(
+        "articleMeta"
+    ).innerHTML = `
+
+        <span>
+            By <strong>${selectedArticle.author}</strong>
+        </span>
+
+        <span>
+            ${selectedArticle.date}
+        </span>
+
+        <span>
+            ${selectedArticle.readTime}
+        </span>
+
+    `;
+
+
+    const articleImage =
+        document.getElementById(
+            "articleImage"
+        );
+
+
+    articleImage.innerHTML = `
+
+        <img
+            src="${selectedArticle.image}"
+            alt="${selectedArticle.title}"
+            onerror="this.style.display='none';"
+        >
+
+    `;
+
+
+    document.getElementById(
+        "articleBody"
+    ).innerHTML =
+        selectedArticle.content;
+
+} else {
+
+    document.getElementById(
+        "articleTitle"
+    ).textContent =
+        "Article Not Found";
+
+
+    document.getElementById(
+        "articleBody"
+    ).innerHTML = `
+
+        <p>
+            We couldn't find the article you're looking for.
+        </p>
+
+        <p>
+            <a href="blog.html">
+                Return to the SWB Journal
+            </a>
+        </p>
+
+    `;
+
+}
+
+</script>
+
+
+</body>
+</html>

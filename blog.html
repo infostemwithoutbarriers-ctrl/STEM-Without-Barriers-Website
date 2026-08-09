@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Blog| STEM Without Barriers</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Josefin+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blog.css">
+
+<body>
+
+<!-- =========================
+     NAVIGATION
+========================= -->
+
+<header>
+
+    <nav class="navbar">
+
+        <a href="index.html" class="logo">
+            STEM Without Barriers
+        </a>
+
+
+       <ul class="nav-links">
+
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a href="about.html">About Us</a>
+            </li>
+
+            <li>
+                <a href="impact.html">Our Impact</a>
+            </li>
+
+            <li>
+                <a href="programs.html">Our Programs</a>
+            </li>
+
+            <li>
+                <a href="involved.html">Get Involved</a>
+            </li>
+
+            <li>
+                <a href="resources.html">Resources</a>
+            </li>
+
+            <li>
+                <a href="blog.html">Blog</a>
+            </li>
+
+            <li>
+                <a href="contact.html">Contact Us</a>
+            </li>
+
+
+                <li>
+                    <a href="lumi.html">
+                        Meet Lumi
+                    </a>
+                </li>
+        </ul>
+
+
+        <a href="involved.html" class="volunteer-btn">
+            Volunteer
+        </a>
+
+    </nav>
+
+</header>
+
+
+<!-- =========================
+     HERO
+========================= -->
+
+<section class="blog-hero">
+
+    <div class="hero-content">
+
+        <p class="eyebrow">
+            LEARN • EXPLORE • GROW
+        </p>
+
+        <h1>
+            SWB Journal
+        </h1>
+
+        <p class="hero-description">
+            Discover STEM stories, ideas, opportunities, careers,
+            and insights designed to help students learn, create,
+            and discover their potential.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     BLOG CONTENT
+========================= -->
+
+<main class="blog-main">
+
+    <!-- SEARCH -->
+
+    <div class="search-wrapper">
+
+        <span class="search-icon">⌕</span>
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search articles..."
+            aria-label="Search articles"
+        >
+
+    </div>
+
+
+    <!-- CATEGORY FILTERS -->
+
+    <div class="category-filters">
+
+        <button class="category-button active" data-category="All">
+            All
+        </button>
+
+        <button class="category-button" data-category="Chemistry">
+            Chemistry
+        </button>
+
+        <button class="category-button" data-category="Biology">
+            Biology
+        </button>
+
+        <button class="category-button" data-category="Physics">
+            Physics
+        </button>
+
+        <button class="category-button" data-category="Engineering">
+            Engineering
+        </button>
+
+        <button class="category-button" data-category="AI">
+            AI
+        </button>
+
+        <button class="category-button" data-category="Technology">
+            Technology
+        </button>
+
+        <button class="category-button" data-category="Medical">
+            Medical
+        </button>
+
+        <button class="category-button" data-category="Careers">
+            Careers
+        </button>
+
+    </div>
+
+
+    <!-- ARTICLE COUNT -->
+
+    <div class="results-header">
+
+        <p id="articleCount">
+            9 articles available
+        </p>
+
+    </div>
+
+
+    <!-- ARTICLE GRID -->
+
+    <section
+        class="article-grid"
+        id="articleGrid"
+    >
+    </section>
+
+
+    <!-- NO RESULTS -->
+
+    <div
+        class="no-results"
+        id="noResults"
+        style="display: none;"
+    >
+
+        <div class="no-results-icon">
+            ✦
+        </div>
+
+        <h2>
+            No articles found
+        </h2>
+
+        <p>
+            Try searching for something else or choose another category.
+        </p>
+
+    </div>
+
+</main>
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer class="site-footer">
+
+    <div class="footer-container">
+
+        <div class="footer-brand">
+
+            <h2>
+                STEM Without Barriers
+            </h2>
+
+            <p>
+                Making STEM more accessible, engaging,
+                and inclusive for everyone.
+            </p>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <div>
+                <h3>Explore</h3>
+
+                <a href="about.html">About Us</a>
+                <a href="programs.html">Programs</a>
+                <a href="impact.html">Our Impact</a>
+                <a href="blog.html">Blog</a>
+
+            </div>
+
+
+            <div>
+                <h3>Get Involved</h3>
+
+                <a href="involved.html">Volunteer</a>
+                <a href="resources.html">Resources</a>
+                <a href="contact.html">Contact Us</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 STEM Without Barriers. All rights reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="blog.js"></script>
+
+</body>
+</html>

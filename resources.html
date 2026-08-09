@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Resources | STEM Without Barriers</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Josefin+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- =========================================================
+     NAVIGATION
+     ========================================================= -->
+
+<header>
+
+    <nav class="navbar">
+
+        <a href="index.html" class="logo">
+            STEM Without Barriers
+        </a>
+
+
+       <ul class="nav-links">
+
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a href="about.html">About Us</a>
+            </li>
+
+            <li>
+                <a href="impact.html">Our Impact</a>
+            </li>
+
+            <li>
+                <a href="programs.html">Our Programs</a>
+            </li>
+
+            <li>
+                <a href="involved.html">Get Involved</a>
+            </li>
+
+            <li>
+                <a href="resources.html">Resources</a>
+            </li>
+
+            <li>
+                <a href="blog.html">Blog</a>
+            </li>
+
+            <li>
+                <a href="contact.html">Contact Us</a>
+            </li>
+
+
+                <li>
+                    <a href="lumi.html">
+                        Meet Lumi
+                    </a>
+                </li>
+        </ul>
+
+
+        <a href="involved.html" class="volunteer-btn">
+            Volunteer
+        </a>
+
+    </nav>
+
+</header>
+
+
+
+<!-- =========================================================
+     RESOURCE HERO
+     ========================================================= -->
+
+<section class="resources-hero">
+
+    <div class="resources-hero-content">
+
+        <span class="section-label">
+            LEARN • EXPLORE • GROW
+        </span>
+
+        <h1>
+            STEM Resources
+        </h1>
+
+        <p>
+            Explore free STEM activities, lessons, worksheets,
+            scholarships, internships, programs, and opportunities
+            designed to help students learn, create, and discover
+            their potential.
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     RESOURCE LIBRARY
+     ========================================================= -->
+
+<section class="resource-library">
+
+
+    <!-- SEARCH -->
+
+    <div class="resource-search-wrapper">
+
+        <div class="resource-search">
+
+            <span class="search-icon">
+                🔎
+            </span>
+
+            <input
+                type="text"
+                id="resource-search"
+                placeholder="Search resources..."
+                aria-label="Search resources"
+            >
+
+        </div>
+
+    </div>
+
+
+
+    <!-- FILTERS -->
+
+    <div
+        class="resource-filters"
+        id="resource-filters"
+    >
+    </div>
+
+
+
+    <!-- RESOURCE COUNT -->
+
+    <div class="resource-results-info">
+
+        <p id="resource-count">
+            Loading resources...
+        </p>
+
+    </div>
+
+
+
+    <!-- RESOURCE GRID -->
+
+    <div
+        class="resource-grid"
+        id="resource-grid"
+    >
+    </div>
+
+
+
+    <!-- NO RESULTS -->
+
+    <div
+        class="resource-empty"
+        id="resource-empty"
+        style="display: none;"
+    >
+
+        <div class="resource-empty-icon">
+            🔎
+        </div>
+
+        <h2>
+            No resources found
+        </h2>
+
+        <p>
+            Try another search or choose a different category.
+        </p>
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================================================
+     LUMI TIP
+     ========================================================= -->
+
+<section class="resource-lumi-section">
+
+    <div class="resource-lumi-content">
+
+        <span class="section-label">
+            LUMI SAYS
+        </span>
+
+        <h2>
+            There's always more to discover! 💜
+        </h2>
+
+        <p>
+            Whether you're completing an activity, exploring a
+            career, or searching for your next opportunity,
+            remember that learning doesn't have to happen all
+            at once. Take your time, stay curious, and keep
+            exploring.
+        </p>
+
+    </div>
+
+
+    <div class="resource-lumi-image">
+
+        <img
+            src="images/lumi.png"
+            alt="Lumi, the STEM Without Barriers mascot"
+        >
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     RESOURCE VIEWER MODAL
+     ========================================================= -->
+
+<div
+    class="resource-modal"
+    id="resource-modal"
+    aria-hidden="true"
+>
+
+
+    <div class="resource-modal-overlay"></div>
+
+
+    <div
+        class="resource-modal-content"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-resource-title"
+    >
+
+
+        <!-- CLOSE -->
+
+        <button
+            class="resource-modal-close"
+            id="resource-modal-close"
+            aria-label="Close resource"
+        >
+            ×
+        </button>
+
+
+
+        <!-- RESOURCE INFORMATION -->
+
+        <div class="resource-modal-info">
+
+            <div class="resource-modal-cover">
+
+                <img
+                    id="modal-resource-cover"
+                    src=""
+                    alt=""
+                >
+
+            </div>
+
+
+            <div class="resource-modal-details">
+
+                <span
+                    class="resource-modal-category"
+                    id="modal-resource-category"
+                >
+                </span>
+
+
+                <h2 id="modal-resource-title">
+                </h2>
+
+
+                <p
+                    class="resource-modal-description"
+                    id="modal-resource-description"
+                >
+                </p>
+                <p
+    class="resource-author"
+    id="modal-resource-author"
+>
+</p>
+
+
+                <div class="resource-meta">
+
+                    <div class="resource-meta-item">
+
+                        <span class="meta-icon">
+                            🎓
+                        </span>
+
+                        <div>
+
+                            <small>
+                                Level
+                            </small>
+
+                            <strong id="modal-resource-level">
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="resource-meta-item">
+
+                        <span class="meta-icon">
+                            ⏱️
+                        </span>
+
+                        <div>
+
+                            <small>
+                                Time
+                            </small>
+
+                            <strong id="modal-resource-time">
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="resource-meta-item">
+
+                        <span class="meta-icon">
+                            🧰
+                        </span>
+
+                        <div>
+
+                            <small>
+                                Materials
+                            </small>
+
+                            <strong id="modal-resource-materials">
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <div
+                        class="resource-meta-item"
+                        id="modal-deadline-wrapper"
+                        style="display: none;"
+                    >
+
+                        <span class="meta-icon">
+                            📅
+                        </span>
+
+                        <div>
+
+                            <small>
+                                Deadline
+                            </small>
+
+                            <strong id="modal-resource-deadline">
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="resource-modal-buttons">
+
+                    <a
+                        href="#"
+                        class="primary-btn"
+                        id="modal-download"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        Download Resource ↓
+                    </a>
+
+
+                    <a
+                        href="#"
+                        class="secondary-btn"
+                        id="modal-apply"
+                        target="_blank"
+                        rel="noopener"
+                        style="display: none;"
+                    >
+                        Apply / Learn More →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- PDF -->
+
+        <div class="resource-pdf-section">
+
+            <div class="resource-pdf-heading">
+
+                <span class="section-label">
+                    RESOURCE PREVIEW
+                </span>
+
+                <h3>
+                    Explore this resource
+                </h3>
+
+            </div>
+
+
+            <div class="resource-pdf-viewer">
+
+                <iframe
+                    id="resource-pdf"
+                    src=""
+                    title="Resource PDF preview"
+                >
+                </iframe>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+
+<!-- =========================================================
+     FOOTER
+     ========================================================= -->
+
+<footer class="footer">
+
+    <div class="footer-inner">
+
+
+        <div class="footer-brand">
+
+            <h3>
+                STEM Without Barriers
+            </h3>
+
+            <p>
+                Making STEM more accessible, engaging,
+                and welcoming for every learner.
+            </p>
+
+        </div>
+
+
+
+        <div class="footer-column">
+
+            <h4>
+                Explore
+            </h4>
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="about.html">
+                About Us
+            </a>
+
+            <a href="impact.html">
+                Our Impact
+            </a>
+
+            <a href="programs.html">
+                Our Programs
+            </a>
+
+            <a href="resources.html">
+                Resources
+            </a>
+
+            <a href="blog.html">
+                Blog
+            </a>
+
+        </div>
+
+
+
+        <div class="footer-column">
+
+            <h4>
+                Get Involved
+            </h4>
+
+            <a href="involved.html">
+                Volunteer
+            </a>
+
+
+            <a href="contact.html">
+                Contact Us
+            </a>
+
+        </div>
+
+
+<div class="footer-column">
+
+                <h4>
+                    Connect
+                </h4>
+
+                <a href="mailto:infostemwithoutbarriers@gmail.com">
+                    Email Us
+                </a>
+
+                <a href="https://www.instagram.com/stemwithoutbarriers?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                    Instagram
+                </a>
+
+                <a href="https://www.tiktok.com/@stem.without.barriers?is_from_webapp=1&sender_device=pc">
+                    TikTok
+                </a>
+
+            </div>
+
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 STEM Without Barriers. All rights reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+
+<!-- =========================================================
+     JAVASCRIPT
+     ========================================================= -->
+
+<script src="resources.js"></script>
+
+</body>
+
+</html>

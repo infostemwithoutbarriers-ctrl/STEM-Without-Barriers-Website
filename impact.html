@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Our Impact | STEM Without Barriers</title>
+
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Josefin+Sans:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- Leaflet -->
+
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    >
+
+
+    <!-- Main SWB Styles -->
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     NAVIGATION
+     ===================================================== -->
+
+<header>
+
+    <nav class="navbar">
+
+        <a href="index.html" class="logo">
+            STEM Without Barriers
+        </a>
+
+
+        <ul class="nav-links">
+
+            <li>
+                <a href="index.html">
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a href="about.html">
+                    About Us
+                </a>
+            </li>
+
+            <li>
+                <a href="impact.html">
+                    Our Impact
+                </a>
+            </li>
+
+            <li>
+                <a href="programs.html">
+                    Our Programs
+                </a>
+            </li>
+
+            <li>
+                <a href="involved.html">
+                    Get Involved
+                </a>
+            </li>
+
+            <li>
+                <a href="resources.html">
+                    Resources
+                </a>
+            </li>
+
+            <li>
+                <a href="blog.html">
+                    Blog
+                </a>
+            </li>
+
+            <li>
+                <a href="contact.html">
+                    Contact Us
+                </a>
+            </li>
+
+                <li>
+                    <a href="lumi.html">
+                        Meet Lumi
+                    </a>
+                </li>
+
+
+        </ul>
+
+
+        <a
+            href="volunteer.html"
+            class="volunteer-btn"
+        >
+            Volunteer
+        </a>
+
+    </nav>
+
+</header>
+
+
+
+<!-- =====================================================
+     IMPACT HERO
+     ===================================================== -->
+
+<section class="impact-hero">
+
+
+    <div class="impact-hero-content">
+
+        <span class="section-label">
+            OUR IMPACT
+        </span>
+
+
+        <h1>
+            STEM Without
+            <span>Barriers.</span>
+        </h1>
+
+
+        <p>
+            What started as a mission to make STEM more
+            accessible is growing into a community reaching
+            students, volunteers, and STEM advocates across
+            the United States and around the world.
+        </p>
+
+    </div>
+
+
+    <div class="impact-hero-decoration">
+
+        <!--
+            Replace this with your actual Lumi image path
+            if your Lumi image has a different filename.
+        -->
+
+        <div class="impact-lumi-circle">
+
+            <img src="images/Lumi.png" alt="Lumi, the STEM Without Barriers mascot">
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     IMPACT STATISTICS
+     ===================================================== -->
+
+<section class="impact-stats-section">
+
+
+    <div class="impact-stats-heading">
+
+        <span class="section-label">
+            BY THE NUMBERS
+        </span>
+
+
+        <h2>
+            Our growing impact
+        </h2>
+
+
+        <p>
+            Every volunteer, resource, and connection helps
+            us move closer to a world where STEM is accessible
+            to everyone.
+        </p>
+
+    </div>
+
+
+    <div class="impact-stat-grid">
+
+
+        <div class="impact-stat-card">
+
+            <div class="impact-stat-icon">
+                👥
+            </div>
+
+            <h3>
+                65+
+            </h3>
+
+            <p>
+                Volunteers
+            </p>
+
+        </div>
+
+
+        <div class="impact-stat-card">
+
+            <div class="impact-stat-icon">
+                🌎
+            </div>
+
+            <h3>
+                60+
+            </h3>
+
+            <p>
+                Global Connections
+            </p>
+
+        </div>
+
+
+        <div class="impact-stat-card">
+
+            <div class="impact-stat-icon">
+                🧪
+            </div>
+
+            <h3>
+                50+
+            </h3>
+
+            <p>
+                STEM Resources
+            </p>
+
+        </div>
+
+
+        <div class="impact-stat-card">
+
+            <div class="impact-stat-icon">
+                💜
+            </div>
+
+            <h3>
+                1
+            </h3>
+
+            <p>
+                Shared Mission
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     GLOBAL IMPACT MAP
+     ===================================================== -->
+
+<section class="global-impact">
+
+
+    <div class="global-impact-heading">
+
+        <span class="section-label">
+            OUR COMMUNITY
+        </span>
+
+
+        <h2>
+            Reaching beyond borders
+        </h2>
+
+
+        <p>
+            Our community includes students, volunteers,
+            educators, and STEM advocates from locations
+            across the United States and around the world.
+        </p>
+
+    </div>
+
+
+    <div class="impact-map-wrapper">
+
+
+        <div id="impact-map"></div>
+
+
+        <div class="impact-map-legend">
+
+            <span class="impact-map-legend-dot"></span>
+
+            <span>
+                SWB Community
+            </span>
+
+        </div>
+
+
+    </div>
+
+
+    <p class="impact-map-note">
+        Each purple circle represents one unique location
+        connected to the STEM Without Barriers community.
+        Repeated locations are represented by a single circle.
+    </p>
+
+</section>
+
+
+
+<!-- =====================================================
+     IMPACT MESSAGE
+     ===================================================== -->
+
+<section class="impact-message">
+
+
+    <div class="impact-message-content">
+
+        <span class="section-label">
+            ONE COMMUNITY
+        </span>
+
+
+        <h2>
+            Every connection matters.
+        </h2>
+
+
+        <p>
+            Every person who contributes to STEM Without
+            Barriers helps expand access to opportunities,
+            resources, and experiences that can inspire
+            the next generation of STEM learners.
+        </p>
+
+
+        <a
+            href="volunteer.html"
+            class="primary-btn"
+        >
+            Join Our Community
+        </a>
+
+    </div>
+
+
+    <div class="impact-message-lumi">
+
+        <img src="images/Lumi.png" alt="Lumi, the STEM Without Barriers mascot">
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+     ===================================================== -->
+
+<footer class="footer">
+
+
+    <div class="footer-inner">
+
+
+        <div class="footer-brand">
+
+            <h3>
+                STEM Without Barriers
+            </h3>
+
+            <p>
+                Making STEM more accessible,
+                one opportunity at a time.
+            </p>
+
+        </div>
+
+
+       <div class="footer-column">
+
+            <h4>
+                Explore
+            </h4>
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="about.html">
+                About Us
+            </a>
+
+            <a href="impact.html">
+                Our Impact
+            </a>
+
+            <a href="programs.html">
+                Our Programs
+            </a>
+
+            <a href="resources.html">
+                Resources
+            </a>
+
+            <a href="blog.html">
+                Blog
+            </a>
+
+        </div>
+
+
+
+        <div class="footer-column">
+
+            <h4>
+                Get Involved
+            </h4>
+
+            <a href="involved.html">
+                Volunteer
+            </a>
+
+
+            <a href="contact.html">
+                Contact Us
+            </a>
+
+        </div>
+
+
+<div class="footer-column">
+
+                <h4>
+                    Connect
+                </h4>
+
+                <a href="mailto:infostemwithoutbarriers@gmail.com">
+                    Email Us
+                </a>
+
+                <a href="https://www.instagram.com/stemwithoutbarriers?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                    Instagram
+                </a>
+
+                <a href="https://www.tiktok.com/@stem.without.barriers?is_from_webapp=1&sender_device=pc">
+                    TikTok
+                </a>
+
+            </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 STEM Without Barriers. All rights reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+
+<!-- =====================================================
+     LEAFLET MAP
+     ===================================================== -->
+
+<script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
+</script>
+
+
+<script>
+
+
+/* =========================================================
+   UNIQUE SWB LOCATIONS
+   =========================================================
+
+   Repeated country/location entries have ONE circle.
+
+   City-specific locations remain separate when you
+   specifically provided the city.
+   ========================================================= */
+
+
+const locations = [
+
+    /* UNITED STATES */
+
+    {
+        name: "Georgia",
+        lat: 32.1656,
+        lng: -82.9001
+    },
+
+    {
+        name: "California",
+        lat: 36.7783,
+        lng: -119.4179
+    },
+
+    {
+        name: "New York City, New York",
+        lat: 40.7128,
+        lng: -74.0060
+    },
+
+    {
+        name: "Belle Mead, New Jersey",
+        lat: 40.4670,
+        lng: -74.6600
+    },
+
+    {
+        name: "South Texas",
+        lat: 26.2034,
+        lng: -98.2300
+    },
+
+    {
+        name: "Los Angeles, California",
+        lat: 34.0522,
+        lng: -118.2437
+    },
+
+    {
+        name: "Bellflower, California",
+        lat: 33.8817,
+        lng: -118.1170
+    },
+
+    {
+        name: "Austin, Texas",
+        lat: 30.2672,
+        lng: -97.7431
+    },
+
+    {
+        name: "Atlanta, Georgia",
+        lat: 33.7490,
+        lng: -84.3880
+    },
+
+    {
+        name: "Istanbul, Türkiye",
+        lat: 41.0082,
+        lng: 28.9784
+    },
+
+    {
+        name: "Seattle / Bothell, Washington",
+        lat: 47.7623,
+        lng: -122.2054
+    },
+
+    {
+        name: "South Carolina",
+        lat: 33.8361,
+        lng: -80.8987
+    },
+
+    {
+        name: "Virginia",
+        lat: 37.4316,
+        lng: -78.6569
+    },
+
+    {
+        name: "Cullowhee, North Carolina",
+        lat: 35.3137,
+        lng: -83.1765
+    },
+
+    {
+        name: "Hartsville, South Carolina",
+        lat: 34.3749,
+        lng: -80.0734
+    },
+
+    {
+        name: "Puerto Rico",
+        lat: 18.2208,
+        lng: -66.5901
+    },
+
+    {
+        name: "North Liberty, Iowa",
+        lat: 41.7492,
+        lng: -91.6077
+    },
+
+    {
+        name: "Boston, Massachusetts",
+        lat: 42.3601,
+        lng: -71.0589
+    },
+
+    {
+        name: "Richmond, Texas",
+        lat: 29.5822,
+        lng: -95.7608
+    },
+
+    {
+        name: "Florida, United States",
+        lat: 27.6648,
+        lng: -81.5158
+    },
+
+    {
+        name: "Las Vegas, Nevada",
+        lat: 36.1699,
+        lng: -115.1398
+    },
+
+    {
+        name: "Frisco, Texas",
+        lat: 33.1507,
+        lng: -96.8236
+    },
+
+    {
+        name: "Dallas, Texas",
+        lat: 32.7767,
+        lng: -96.7970
+    },
+
+    {
+        name: "New Jersey",
+        lat: 40.0583,
+        lng: -74.4057
+    },
+
+
+    /* NORTH AMERICA */
+
+    {
+        name: "Canada",
+        lat: 56.1304,
+        lng: -106.3468
+    },
+
+    {
+        name: "Winnipeg, Manitoba, Canada",
+        lat: 49.8951,
+        lng: -97.1384
+    },
+
+
+    /* ASIA */
+
+    {
+        name: "India",
+        lat: 20.5937,
+        lng: 78.9629
+    },
+
+    {
+        name: "Tripura, India",
+        lat: 23.9408,
+        lng: 91.9882
+    },
+
+    {
+        name: "Pakistan",
+        lat: 30.3753,
+        lng: 69.3451
+    },
+
+    {
+        name: "Karachi, Pakistan",
+        lat: 24.8607,
+        lng: 67.0011
+    },
+
+    {
+        name: "Bangladesh",
+        lat: 23.6850,
+        lng: 90.3563
+    },
+
+    {
+        name: "Dhaka, Bangladesh",
+        lat: 23.8103,
+        lng: 90.4125
+    },
+
+    {
+        name: "Indonesia",
+        lat: -0.7893,
+        lng: 113.9213
+    },
+
+    {
+        name: "Jakarta, Indonesia",
+        lat: -6.2088,
+        lng: 106.8456
+    },
+
+    {
+        name: "Kazakhstan",
+        lat: 48.0196,
+        lng: 66.9237
+    },
+
+    {
+        name: "Thailand",
+        lat: 15.8700,
+        lng: 100.9925
+    },
+
+    {
+        name: "Singapore",
+        lat: 1.3521,
+        lng: 103.8198
+    },
+
+    {
+        name: "Philippines",
+        lat: 12.8797,
+        lng: 121.7740
+    },
+
+    {
+        name: "Cebu City, Philippines",
+        lat: 10.3157,
+        lng: 123.8854
+    },
+
+    {
+        name: "South Korea",
+        lat: 35.9078,
+        lng: 127.7669
+    },
+
+
+    /* MIDDLE EAST */
+
+    {
+        name: "United Arab Emirates",
+        lat: 23.4241,
+        lng: 53.8478
+    },
+
+    {
+        name: "Saudi Arabia",
+        lat: 23.8859,
+        lng: 45.0792
+    },
+
+    {
+        name: "Muscat, Oman",
+        lat: 23.5880,
+        lng: 58.3829
+    },
+
+
+    /* AFRICA */
+
+    {
+        name: "Morocco",
+        lat: 31.7917,
+        lng: -7.0926
+    },
+
+    {
+        name: "Algeria",
+        lat: 28.0339,
+        lng: 1.6596
+    },
+
+    {
+        name: "Durban, South Africa",
+        lat: -29.8587,
+        lng: 31.0218
+    },
+
+    {
+        name: "Kampala, Uganda",
+        lat: 0.3476,
+        lng: 32.5825
+    },
+
+
+    /* OCEANIA */
+
+    {
+        name: "Australia",
+        lat: -25.2744,
+        lng: 133.7751
+    }
+
+];
+
+
+/* =========================================================
+   CREATE MAP
+   ========================================================= */
+
+const impactMap = L.map(
+    "impact-map",
+    {
+        center: [20, 0],
+
+        zoom: 2,
+
+        minZoom: 2,
+
+        maxZoom: 7,
+
+        worldCopyJump: true
+    }
+);
+
+
+/* =========================================================
+   MAP TILES
+   ========================================================= */
+
+L.tileLayer(
+    "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+    {
+        attribution:
+            '&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
+
+        maxZoom: 19
+    }
+).addTo(impactMap);
+
+
+/* =========================================================
+   CREATE PURPLE LOCATION CIRCLES
+   ========================================================= */
+
+locations.forEach(
+    location => {
+
+        const circle =
+            L.circleMarker(
+                [
+                    location.lat,
+                    location.lng
+                ],
+                {
+                    radius: 9,
+
+                    fillColor: "#8965cf",
+
+                    color: "#ffffff",
+
+                    weight: 2,
+
+                    opacity: 1,
+
+                    fillOpacity: 0.62
+                }
+            )
+            .addTo(impactMap);
+
+
+        /* POPUP */
+
+        circle.bindPopup(`
+
+            <div class="impact-popup">
+
+                <strong>
+                    ${location.name}
+                </strong>
+
+                <span>
+                    STEM Without Barriers
+                </span>
+
+            </div>
+
+        `);
+
+
+        /* HOVER */
+
+        circle.on(
+            "mouseover",
+            function () {
+
+                this.setStyle({
+
+                    radius: 12,
+
+                    fillOpacity: 0.85
+
+                });
+
+            }
+        );
+
+
+        circle.on(
+            "mouseout",
+            function () {
+
+                this.setStyle({
+
+                    radius: 9,
+
+                    fillOpacity: 0.62
+
+                });
+
+            }
+        );
+
+    }
+);
+
+
+/* =========================================================
+   RESPONSIVE MAP FIX
+   ========================================================= */
+
+setTimeout(
+    () => {
+
+        impactMap.invalidateSize();
+
+    },
+    300
+);
+
+
+</script>
+
+
+</body>
+
+</html>
