@@ -16,7 +16,7 @@ const articles = [
         author: "Arwa Arfidi",
         date: "August 10, 2026",
         readTime: "6 min read",
-        image: "blog/ocean-drinking.png",
+        image: "Blog/ocean-drinking.png",
         excerpt:
             "We all know that the ocean covers most of our planet, but can we actually drink it?",
         content: `
