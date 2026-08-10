@@ -1429,7 +1429,7 @@ if (typeof resources !== "undefined" && Array.isArray(resources)) {
         level: "Beginner",
         time: "90-120 minutes",
         materials: "Crayons, colored pencils, or markers",
-        pdf: "Places.pdf", 
+        pdf: "resources/coloring-book-alphabet-places.pdf", 
         cover: "resources/Coloring Book Alphabet of Place.png",
         author: "STEM Without Barriers",
         description:
