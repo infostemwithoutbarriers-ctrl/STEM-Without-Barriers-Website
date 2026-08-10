@@ -17,7 +17,7 @@ const articles = [
         author: "Barkhasruti Gogoi",
         date: "August 7, 2026",
         readTime: "5 min read",
-        image: "blog/synthetic-biology-cover.png",
+        image: "Blog/synthetic-biology-cover.png",
         excerpt:
             "Have you ever heard of how scientists actually generate codes in living organisms instead of a computer? Yes, you heard it right!",
         content: `
@@ -100,7 +100,7 @@ const articles = [
         author: "Kunjing Guan",
         date: "August 4, 2026",
         readTime: "4 min read",
-        image: "blog/figma.png",
+        image: "Blog/figma.png",
         excerpt:
             "Figma is a powerful design tool that is revolutionizing the way designers and developers collaborate.",
         content: `
@@ -160,7 +160,7 @@ const articles = [
         author: "Kamrul Hassan",
         date: "August 5, 2026",
         readTime: "8 min read",
-        image: "blog/ai-transforming-education.png",
+        image: "Blog/ai-transforming-education.png",
         excerpt:
             "When people refer to Artificial Intelligence (AI), we often think of self-driving cars, humanoid robots, or sci-fi blockbusters. ",
         content: `
@@ -277,7 +277,7 @@ const articles = [
         author: "Arwa Arfidi",
         date: "August 6, 2026",
         readTime: "2 min read",
-        image: "blog/what-is-ai.png",
+        image: "Blog/what-is-ai.png",
         excerpt:
             "From our computers to our smartphones, AI is becoming an integral part of our daily lives.",
         content: `
@@ -308,7 +308,7 @@ const articles = [
         author: "Arwa Arfidi",
         date: "August 6, 2026",
         readTime: "2 min read",
-        image: "blog/volcano.png",
+        image: "Blog/volcano.png",
         excerpt:
             "We've all seen the dramatic images of volcanic eruptions, but what causes them to happen?",
         content: `
@@ -339,7 +339,7 @@ const articles = [
         author: "Arwa Arfidi",
         date: "August 6, 2026",
         readTime: "2 min read",
-        image: "blog/rainbow.png",
+        image: "Blog/rainbow.png",
         excerpt:
             "Rainbows are one of nature's most beautiful phenomena, but have you ever wondered how they form?",
         content: `
