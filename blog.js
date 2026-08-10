@@ -9,6 +9,55 @@
 ========================================================= */
 
 const articles = [
+    {
+        id: "ocean",
+        title: "Can We Turn Ocean Water into Drinking Water?",
+        category: "Science",
+        author: "Arwa Arfidi",
+        date: "August 10, 2026",
+        readTime: "6 min read",
+        image: "blog/ocean-drinking.png",
+        excerpt:
+            "We all know that the ocean covers most of our planet, but can we actually drink it?",
+        content: `
+
+        <h2>The Ocean: A Hidden Source of Freshwater</h2>
+
+        <p>Earth is covered by ocean, but most ocean water is too salty to drink.
+        So, how can we turn it into freshwater? Scientists use desalination to remove sat and other 
+        impurities from seawater. With the help of STEM, this technology could provide freshwater to communities facing water shortages.
+        </p>
+
+        <h2>How Does Desalination Work?</h2>
+        
+        <p>
+        Desalination is the process of turning salty seawater into freshwater. One of the most common methods is reverse osmosis.
+        In this process, seawater is pushed through a special membrane. The tiny pores allow. water molecules to pass 
+        through while blocking most of the salt and other impurities. This leaves us with cleaner, usable freshwater.
+        </p>
+
+        <h2>The STEM Behind It</h2>
+        
+        <p>
+        Desalination brings together science, technology, engineering, and mathematics to solve real-world problem. 
+        Scientists study how salt and water behave, while engineers design systems that can filter huge amounts of seawater.
+        Technology makes the process faster and more efficient, helping provide freshwater where it is needed most.
+        </p>
+
+        <h2>Why is Desalination Important?</h2>
+        
+        <p>
+        Desalination can provide freshwater in places where clean water is limited. It can help communities during droughts
+        and reduce pressure on natural freshwater sources. 
+        </p>
+
+        <h4>
+        As technology improves, desalination could become an important part 
+        of creating a more water secure future. 
+        </h4>
+
+        `
+    },
 
     {
         id: "synthetic-biology",
@@ -367,6 +416,192 @@ const articles = [
         This means every rainbow is unique, making each sighting a special experience.
          </h4>
        
+        `
+    },
+
+    {
+        id: "ai-budget",
+        title: "AI On a Budget",
+        category: "AI",
+        author: "Arwa Arfidi",
+        date: "August 9, 2026",
+        readTime: "9 min read",
+        image: "Blog/ai-on-a-budget.png",
+        excerpt:
+            "A No-Fluff Guide to Saving Time and Money in Your Small Business.",
+        content: `
+        
+        <h2>Introduction</h2>
+
+        <p>A few years ago, "using AI in your Business" Sounded like something only tech companies did.
+        Not anymore. Today, a bakery owner in a small town can use AI to write her social media captions
+        in ten minutes instead of an hour. A local plumber can let an AI chatbot answer customer questions at midnight while he sleeps. 
+        A one-person marketing consultancy can use AI to draft client proposald that used to take a full afternoon.
+        This isn't about robots taking over. It's about smal business owners getting back their most limited resource:time.
+        </p>
+
+        <p>Here's a real example. A friend of mine runs a small online candle shop. She used to spend three hours
+        every Sunday writing product descriptions and emails. Now she uses an AI writing tool to draft the first version, 
+        tweaks it in her own voice, and the whole thing takes 20 minutes. That's over two extra hours a week — time
+        she now spends actually growing her business instead of typing.
+        </p>
+
+        <p>That's what this book is about. Not chasing every shiny new AI tool,  but picking a handful that genuinely
+        save you time, money, or stress — and using them well. By the end, you'll have a simple, practical plan to 
+        bring AI into your business without feeling overwhelmed or needing a tech background.
+        </p>
+
+        <h2>The AI Mindset Shift</h2>
+
+        <p>
+        Most peoplee think of AI as a tool, like a calculator. But the owners who get the most out of it think of
+        it differently: As a Helper on the Team. Here's the shift. Instead of asking "How do I use this AI Tool?", 
+        ask "What task do I hate doing every week that I could Hand off?" That one change in thinking makes AI way more 
+        useful, way faster. 
+        </p>
+
+        <p> Real Example: a small gym owner used to dread writing weekly newsletters to members. it felt like a 
+        chore she kept pushing off. once she started treating an ai writing assistant like a helpful assistant — 
+        giving it her rough notes and letting it draft the newsletter — she stopped dreading mondays. she still edits it, 
+        still adds her own voice, but the blank page problem is gone.
+        </p>
+
+        <p>The mistake most business owners make is expecting ai to be perfect right away, 
+        then giving up when it isn't. The better mindset: treat it like training a new employee.
+        Give clear instructions, check its work, correct it, and it gets better the more you use it. 
+        You don't need to be "good at tech" for this. You just need to be willing to delegate the boring stuff.
+        </p>
+        
+        <h2>AI For Customer Service</h2>
+
+        <p>
+        If there's one place small businesses lose customers without realizing it, it's slow replies. Someone 
+        messages you at 9pm with a question, and by the time you reply the next morning, they've already bought 
+        from a competitor.
+        </p>
+
+        <p>
+        This is where ai chatbots quietly become a lifesaver. They're not there to replace you — they're there to 
+        catch the easy stuff. "What are your hours?" "Do you ship to Canada?" "How much is the large size?" 
+        questions you've answered a hundred times before.
+        </p>
+
+        <p>
+        Real example: a small skincare shop owner set up a simple ai chatbot on her website that answered 
+        common questions about ingredients, shipping times, and returns. within a month, she noticed she was 
+        getting fewer repetitive emails, and customers were checking out faster because they got instant answers
+        instead of waiting for her to wake up.
+        </p>
+
+        <p> She still handles complaints and tricky situations herself — the human stuff. The chatbot just handles 
+        the repetitive 80%, so she can focus her energy on the 20% that actually needs her. That's the real value 
+        here: not a robot pretending to be human, just something that quietly clears out the noise so you can
+        focus on what matters.
+        </p>
+
+
+        <h2>AI For Marketing & Content</h2>
+
+        <p> Marketing used to mean staring at a blank screen, trying to think of something clever to post. 
+        For a lot of small business owners, that blank screen alone is enough to make marketing get skipped 
+        entirely for weeks.
+        </p>
+
+        <p> AI writing tools fix exactly that problem. You give it a rough idea — even a messy one — 
+        and it hands you a first draft in seconds. You're not starting from nothing anymore, just editing.
+        </p>
+
+        <p> Real example: a local pottery studio owner used to post on Instagram maybe once a month, 
+        mostly because writing captions felt like a chore. She started using an AI tool to generate 
+        three caption options based on a photo and a quick note like "New Mug batch, earthy glazes. " 
+        She'd pick the one that sounded most like her, tweak a line or two, and post it. 
+        Within two months she went from posting monthly to posting three times a week — and 
+        her sales from Instagram dms doubled.
+        </p>
+
+        <p>The key is she never let the ai post exactly as written. She always added her own voice — 
+        a joke, a personal note, something only she would say. That's what keeps content from feeling robotic.
+        Marketing doesn't need to feel like a second job. With the right prompt, it can take minutes instead of hours.
+        </p>
+
+        <h2>AI For Sales & Money</h2>
+
+        <p>
+       Two things quietly drain small business owners: leads that go cold because nobody followed up, 
+       and money stuff — invoices, expenses, cash flow — that gets pushed to "later" and never actually done.
+        </p>
+
+        <p>
+        AI helps with both, and honestly, they solve the same core problem: things falling through the cracks
+        because you're busy running the business, not managing admin. On the sales side, ai tools can 
+        draft follow-up emails the moment someone shows interest, so leads don't go quiet just because you forgot.
+        A small real estate agent started using an ai-powered CRM that auto-drafted a friendly follow-up within a 
+        day of a new inquiry. He'd tweak a line, hit send, and within three months he was closing more deals — not 
+        from new leads, just fewer old ones slipping away.
+        </p>
+
+        <p> On the money side, AI tools can auto-generate invoices, categorize expenses, and flag when cash flow 
+        looks tight before it becomes a real problem. A small landscaping business owner used to do her bookkeeping 
+        in a panic every tax season. Now an ai tool tracks expenses automatically as they happen, so by the time 
+        taxes roll around, most of the work is already done. Neither of these replace you. They just make sure 
+        the boring-but-important stuff actually gets done  — instead of quietly costing you money.
+        </p>
+
+        <h2>AI For Design & Choosing The Right Tools?</h2>
+
+        <p>
+        You don't need to be a designer to make things look professional anymore. ai design tools can generate 
+        logos, social graphics, and product mockups just from a short description — no design degree required. 
+        Real Example: a candle shop owner needed a new logo but couldn't afford a $500 designer. She used an ai 
+        design tool, typed a few words about her brand ("earthy, minimal, warm tones"), and got several options in minutes.
+        She picked one, tweaked the colors slightly, and had a logo she was proud of by the end of the afternoon.
+        </p>
+
+        <p>The harder question is usually: which tools are actually worth using? With so many AI tools out there, 
+        it's easy to waste time (and money) trying everything. A simple rule: start free. Most AI tools offer a 
+        free tier that's enough to test if it actually saves you time before you pay for anything. Only upgrade 
+        to a paid plan once you've used the free version enough to know it's genuinely useful — not just shiny and 
+        new. Ask yourself one question before paying for any tool: "Will this save me more time or money than it 
+        costs?" If the answer isn't a clear yes, skip it.
+        </p>
+
+        <h2>Avoiding Common Mistakes & Your Action Checklist</h2>
+
+        <h4>A few mistakes trip up almost every small business owner starting with AI. Knowing them in advance 
+        saves you time and frustration.</h4>
+
+        <p>
+        Mistake 1: Trusting AI output blindly. AI can get facts wrong or sound generic. Always review and edit 
+        before sending anything to a customer.
+        </p>
+
+        <p>Mistake 2: Over-relying on AI for everything. Customers can tell when replies feel robotic. Keep your 
+        voice in the final product, always.
+        </p>
+
+        <p>Mistake 3: Ignoring privacy. Don't paste sensitive customer or financial data into AI tools without checking 
+        their Privacy Policy first.
+        </p>
+
+        <p>Mistake 4: Trying too many tools at once. Pick one or two, actually learn them, before adding more to 
+        your workflow.
+        </p>
+
+        <p>You don't need to overhaul your whole business overnight. Here's a simple way to start:
+        </p>
+        
+        <h4>Your action checklist:</h4>
+
+        <p>
+        - Pick one task from this book that eats up the most time each week.
+        - Try one free AI tool for that specific task this week.
+        - Use it for 7 days before judging if it's worth keeping.
+        - Once comfortable, pick a second task to tackle
+        - Review your time savings after 30 days.
+        - Small, consistent steps beat trying to change everything at once. 
+        - Start with one task — momentum builds from there.
+        </p>
+
         `
     },
 
