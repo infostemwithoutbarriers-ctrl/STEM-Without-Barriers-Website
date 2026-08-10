@@ -425,7 +425,7 @@ const articles = [
         category: "AI",
         author: "Arwa Arfidi",
         date: "August 9, 2026",
-        readTime: "9 min read",
+        readTime: "10 min read",
         image: "Blog/ai-on-a-budget.png",
         excerpt:
             "A No-Fluff Guide to Saving Time and Money in Your Small Business.",
@@ -590,7 +590,7 @@ const articles = [
         <p>You don't need to overhaul your whole business overnight. Here's a simple way to start:
         </p>
         
-        <h4>Your action checklist:</h4>
+        <h4>Your Action Checklist:</h4>
 
         <p>
         - Pick one task from this book that eats up the most time each week.
