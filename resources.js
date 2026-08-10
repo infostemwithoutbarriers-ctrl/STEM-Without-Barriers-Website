@@ -1421,18 +1421,4 @@ if (typeof resources !== "undefined" && Array.isArray(resources)) {
             "A creative STEM coloring activity designed to highlight different aspects of the alphabet using foods in a fun and cute way."
     });
 }
-// Add missing resource to the resources array
-if (typeof resources !== "undefined" && Array.isArray(resources)) {
-    resources.push({
-        title: "Coloring Book Alphabet of Places",
-        category: "Coloring Book",
-        level: "Beginner",
-        time: "90-120 minutes",
-        materials: "Crayons, colored pencils, or markers",
-        pdf: "resources/coloring-book-alphabet-places.pdf", 
-        cover: "resources/Coloring Book Alphabet of Place.png",
-        author: "STEM Without Barriers",
-        description:
-            "A creative STEM coloring activity designed to highlight different aspects of the alphabet using places in a fun and cute way."
-    });
-}
+
