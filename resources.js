@@ -53,6 +53,8 @@ const resources = [
 
         cover: "resources/straw-bridge.png",
 
+        author: "STEM Without Barriers",
+
         description:
             "Design and build a bridge using simple materials while exploring engineering, structural design, creativity, and problem-solving."
     },
