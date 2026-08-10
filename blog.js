@@ -11,220 +11,362 @@
 const articles = [
 
     {
-        id: "future-of-ai",
-        title: "The Future of Artificial Intelligence",
-        category: "AI",
-        author: "STEM Without Barriers",
-        date: "August 8, 2026",
-        readTime: "5 min read",
-        image: "images/blog-ai.jpg",
-        excerpt:
-            "Artificial intelligence is changing the way we learn, work, create, and solve problems.",
-        content: `
-            <p>
-                Artificial intelligence is quickly becoming one of the
-                most influential technologies of our generation. From
-                education to medicine, AI is creating new ways to solve
-                problems and understand the world around us.
-            </p>
-
-            <h2>What is artificial intelligence?</h2>
-
-            <p>
-                Artificial intelligence refers to computer systems that
-                can perform tasks that normally require human intelligence.
-                These tasks can include recognizing patterns, learning
-                from information, understanding language, and making
-                predictions.
-            </p>
-
-            <h2>Why does AI matter?</h2>
-
-            <p>
-                AI has applications across nearly every STEM field.
-                Engineers use it to optimize designs, scientists use it
-                to analyze large datasets, and medical professionals use
-                AI-assisted tools to identify patterns in health data.
-            </p>
-
-            <p>
-                As AI continues to develop, understanding how it works
-                and how it should be used responsibly will become
-                increasingly important.
-            </p>
-        `
-    },
-
-
-    {
-        id: "chemistry-everyday-life",
-        title: "Chemistry in Our Everyday Lives",
-        category: "Chemistry",
-        author: "STEM Without Barriers",
-        date: "August 7, 2026",
-        readTime: "4 min read",
-        image: "images/blog-chemistry.jpg",
-        excerpt:
-            "Chemistry isn't just something that happens in a laboratory. It's happening around us every day.",
-        content: `
-            <p>
-                Chemistry is everywhere. The food we eat, the materials
-                around us, the air we breathe, and even the processes
-                happening inside our bodies are connected to chemistry.
-            </p>
-
-            <h2>Chemistry in everyday life</h2>
-
-            <p>
-                When you cook food, chemical reactions change its
-                structure and properties. When metal rusts, a chemical
-                reaction is taking place. Even the process your body uses
-                to turn food into energy depends on chemistry.
-            </p>
-
-            <h2>Why learning chemistry matters</h2>
-
-            <p>
-                Understanding chemistry helps us understand the world
-                at a molecular level. It also connects directly to fields
-                including medicine, engineering, environmental science,
-                and materials science.
-            </p>
-        `
-    },
-
-
-    {
-        id: "biology-human-body",
-        title: "The Amazing Science of the Human Body",
+        id: "synthetic-biology",
+        title: "Synthetic Biology : A Revolution in Science and Humanitarian Fields",
         category: "Biology",
-        author: "STEM Without Barriers",
-        date: "August 6, 2026",
+        author: "Barkhasruti Gogoi",
+        date: "August 7, 2026",
         readTime: "5 min read",
-        image: "images/blog-biology.jpg",
+        image: "blog/synthetic-biology-cover.png",
         excerpt:
-            "From cells to organ systems, the human body is an incredible biological system.",
+            "Have you ever heard of how scientists actually generate codes in living organisms instead of a computer? Yes, you heard it right!",
         content: `
+        
+
+        <h2>What Exactly is Synthetic Biology?</h2>
+
             <p>
-                The human body contains trillions of cells working
-                together to keep us alive. Every cell has specialized
-                functions that contribute to the larger biological system.
+                As it is currently defined, synthetic biology is the convergence of AI,
+                biology, and engineering to create sustainable technology and biological systems. It is considered a pioneering and significant technology of the 21st century. On average, scientists believe it is projected to grow on a massive scale over the next decade.
             </p>
 
-            <h2>Cells: the building blocks of life</h2>
-
             <p>
-                Cells are the basic structural and functional units of
-                living organisms. Different types of cells perform
-                different jobs, from transporting oxygen to communicating
-                information.
+             ​Let's dive into how synthetic biology is making a global impact!
             </p>
 
-            <h2>Biology connects everything</h2>
+            <h2>Its Main Focus and Purpose</h2>
 
             <p>
-                Biology helps us understand organisms, ecosystems,
-                genetics, evolution, and the complex interactions that
-                make life possible.
+                • ​From Scratch Design: Scientists can now design biological systems from 
+                scratch and redesign existing ones that are no longer practical for current applications
+            </p>
+
+            <p>
+              • ​Biological Software: They treat biological parts like software 
+                modules to make living organisms perform tasks they never evolved to do.
+            </p>
+
+            <p>
+              • ​Novel Functionalities: They build robust systems to create functionalities 
+               and programs that do not currently exist in nature. ​Current Uses and Applications:
+
+            </p>
+
+            <p>
+              • ​Environmental Clean-up: The utilization of microbes to create a clean and healthy environment.
+            </p>
+
+            <p>
+             • ​Pharmaceutical Production: The production of complex drugs that are otherwise
+               scarce due to the limited availability of their source flora.
+            </p>
+
+            <p>
+              • ​Sustainable Consumer Products: The creation of eco-friendly, 
+               everyday products, such as bio-derived rose oils and perfumes.
+
+            </p>
+
+            <h2>Key Investors Driving the Shift</h2>
+
+            <p>
+              • ​Medical Sectors and Laboratories: They remain the primary
+                hubs for early-stage manufacturing and development.
+            </p>
+
+            <p>
+             • Industrial Companies: They widely recognize these modern
+               advancements and are breaking away from traditional manufacturing methods.
+            </p>
+
+            <p>
+             • Climate and Deep Tech Venture Funds: They believe a shift
+               in the STEM field will carve a vital path to lead future growth.
+
+            </p>
+
+            <p>
+               <h4>​Synthetic biology represents a new frontier in how humans and the natural world interact,
+            highlighting a curious, driven mind eager to learn, innovate, produce, and apply!<h/4>
             </p>
         `
     },
 
 
     {
-        id: "physics-everywhere",
-        title: "Physics Is Everywhere",
-        category: "Physics",
-        author: "STEM Without Barriers",
-        date: "August 5, 2026",
-        readTime: "4 min read",
-        image: "images/blog-physics.jpg",
-        excerpt:
-            "From roller coasters to the motion of planets, physics helps explain the world around us.",
-        content: `
-            <p>
-                Physics is the study of matter, energy, motion, forces,
-                and the fundamental rules that govern our universe.
-            </p>
-
-            <h2>Physics in everyday life</h2>
-
-            <p>
-                Every time you ride a bicycle, throw a ball, turn on a
-                light, or hear music, you're experiencing physics.
-            </p>
-
-            <h2>Why physics matters</h2>
-
-            <p>
-                Physics provides the foundation for many areas of
-                engineering, astronomy, electronics, energy, and
-                technology.
-            </p>
-        `
-    },
-
-
-    {
-        id: "engineering-problem-solving",
-        title: "Engineering: Turning Problems Into Possibilities",
-        category: "Engineering",
-        author: "STEM Without Barriers",
-        date: "August 4, 2026",
-        readTime: "5 min read",
-        image: "images/blog-engineering.jpg",
-        excerpt:
-            "Engineers use creativity, science, and problem-solving to design solutions to real-world challenges.",
-        content: `
-            <p>
-                Engineering is about using scientific and mathematical
-                knowledge to design solutions to problems.
-            </p>
-
-            <h2>The engineering mindset</h2>
-
-            <p>
-                Engineers ask questions, identify constraints, design
-                solutions, test their ideas, and improve their designs.
-                Failure is often part of the process.
-            </p>
-
-            <h2>Engineering is everywhere</h2>
-
-            <p>
-                Bridges, aircraft, medical devices, computer systems,
-                renewable energy technologies, and countless other
-                innovations are the result of engineering.
-            </p>
-        `
-    },
-
-
-    {
-        id: "technology-changing-world",
-        title: "How Technology Is Changing the World",
+        id: "Figma-Efficient-Design",
+        title: "Why is Figma Efficient for Future Designers AND Software Engineers?",
         category: "Technology",
-        author: "STEM Without Barriers",
-        date: "August 3, 2026",
-        readTime: "5 min read",
-        image: "images/blog-technology.jpg",
+        author: "Kunjing Guan",
+        date: "August 4, 2026",
+        readTime: "4 min read",
+        image: "blog/figma.png",
         excerpt:
-            "Technology continues to transform the way people communicate, learn, work, and solve problems.",
+            "Figma is a powerful design tool that is revolutionizing the way designers and developers collaborate.",
         content: `
-            <p>
-                Technology has transformed nearly every part of modern
-                life. Computers, smartphones, communication networks,
-                and digital tools have changed how information moves
-                around the world.
-            </p>
-
-            <h2>Technology and education</h2>
+            <h2>What is Figma?</h2>
 
             <p>
-                Digital tools can provide students with new ways to
-                explore ideas, practice skills, and access educational
-                resources.
+                Figma has become an essential tool for both future designers and software engineers, 
+                streamlining collaboration and bridging the gap between design and development.
+                Its cloud-based platform enables real-time teamwork and powerful design features that benefit everyone on a project.
             </p>
+
+            <h2>Teamwork and Workflows</h2>
+
+            <p>
+                Live Teamwork: Teams are able to simultaneously view and edit the same file, 
+                which reduces the mass emails typically needed for team communication.
+                Everyone stays on the same page, literally.
+            </p>
+
+            <p>
+               Web Browser Access: Teams can use Figma directly in a web browser without 
+               worrying about limited storage for software or operating system compatibility. 
+               No downloads or installations required — just open a link and start designing.
+            </p>
+
+            <h2>Key Features</h2>
+
+            <p>
+               DEV Mode: A feature for engineers that gives direct and clean access to specs, 
+               measurements, and code snippets, making the handoff from design to development seamless.
+            </p>
+
+            <p>
+               Auto Layout: Saves time from manual adjustments by automatically resizing text and objects,
+               so your designs stay responsive without extra effort.
+            </p>
+
+            <p>
+              Master Elements: Update a button or navigation bar once, and the changes apply to all 
+              instances of that element across your entire project — no more hunting down every copy.
+            </p>
+
+            <p>
+               Consistency Styles: Main elements and information with colors, text, styles, and numbers keep 
+               designs consistent for easy updates across large projects, ensuring a unified visual language 
+               throughout.
+            </p>
+        `
+
+    },
+
+
+    {
+        id: "ai-transforming-education",
+        title: "How AI is Transforming the Way We Learn: Opportunities, Challenges, and the Future of Education",
+        category: "AI",
+        author: "Kamrul Hassan",
+        date: "August 5, 2026",
+        readTime: "8 min read",
+        image: "blog/ai-transforming-education.png",
+        excerpt:
+            "When people refer to Artificial Intelligence (AI), we often think of self-driving cars, humanoid robots, or sci-fi blockbusters. ",
+        content: `
+        <h2>Introduction</h2>
+
+        <p>
+            When you hear the term Artificial Intelligence (AI), 
+            your mind might jump straight to self-driving cars, humanoid robots, or sci-fi blockbusters.
+            But AI isn't just a futuristic concept confined to research labs 
+            — it is actively reshaping our classrooms, study routines, and the way students
+             and educators interact with knowledge every day.
+        </p>
+
+        <p>
+        From adaptive learning platforms to intelligent tutoring systems, AI is evolving from a novelty into an essential 
+        component of modern education. However, as with any ground-breaking technological shift, its implementation comes 
+        with significant opportunities, unique challenges, and critical ethical questions.
+        Understanding this balance is essential for the next generation of students entering a tech-driven world.
+
+        <h2>1. The Era of Personalized Learning: Moving Beyond 'One-Size-Fits-All'</h2>
+         <p>
+          For over a century, traditional education systems have largely operated on a factory-style model: one teacher
+          stands in front of a class delivering a single lesson at a fixed pace to twenty, thirty, or even forty students 
+          simultaneously. The inherent flaw in this system is obvious — students learn differently.
+         </p>
+
+         <p>
+         AI breaks this traditional paradigm through adaptive learning systems. Tailored Learning Speeds: AI algorithms continuously analyze a student's 
+         performance on quizzes, reading exercises, and practice problems. If a student excels in algebra,
+         the system accelerates the material to keep them engaged. 
+         </p>
+
+         <p>
+         Customized Explanations: Generative AI tools allow students to ask for concepts to be rephrased 
+         in ways that match their personal interests. Instant Real-Time Feedback: AI platforms offer 
+         instantaneous feedback, explaining why an answer is incorrect the moment a mistake is made.
+         </p>
+
+         <h2>2. Democratizing Education and Increasing Accessibility</h2>
+
+         <p>One of the most exciting potential benefits of AI in education is 
+         its ability to lower barriers for historically underserved students and learners with disabilities. 
+         AI-powered accessibility tools are leveling the playing field: Speech-to-Text & Text-to-Speech tools enable students with
+         visual impairments or motor skill challenges to consume and produce written material effortlessly.
+         </p>
+
+         <p>Real-Time Subtitling and Translation ensures non-native English speakers and deaf/hard-of-hearing students
+          miss no critical information. Dyslexia-Friendly Formats: Adaptive software can automatically reformat 
+          reading materials into dyslexia-friendly fonts.
+         </p>
+
+         <p>AI tutors — available 24/7 on phones and laptops — provide high-quality, step-by-step guidance to students worldwide
+         regardless of socioeconomic status or geographical location, democratizing access to quality tutoring.
+         </p>
+
+         <h2>3. The Role of AI for Educators: Burnout Prevention and Engagement</h2>
+
+         <p>It is a common misconception that AI in education exists to replace human teachers. On the contrary, 
+         educators are more critical than ever. AI serves as an assistant that frees teachers from tedious 
+         administrative burdens: Automated Administrative Work streamlines grading, attendance, and paperwork.
+         </p>
+
+         <p>Data-Driven Interventions highlight patterns across classrooms, flagging students who are quietly falling behind.
+          Dynamic Lesson Creation lets teachers quickly generate tailored lesson outlines and differentiated worksheets.
+         </p>
+
+         <h2>4. The Challenges: Academic Integrity, Bias, and Critical Thinking</h2>
+
+         <p>While the advantages of AI are immense, integrating AI into education comes with critical challenges.
+          Over-Reliance Risk: When answers are available at the press of a button, students may skip the productive 
+          struggle required for genuine learning.
+         </p>
+
+         <p>RAlgorithmic Bias: AI models can inherit human biases and are prone to 'hallucination' — stating false information
+          with complete confidence. Students must learn that AI outputs require fact-checking. Digital Divide: AI risks
+          widening the achievement gap if hardware and high-speed internet access remain unequally distributed.
+         </p>
+
+         <h2>5. Navigating the Future: How Students Can Prepare</h2>
+
+         <p>As AI becomes deeply embedded in the academic world, the most valuable skills will be distinctively human: 
+         (1) Critical Inquiry & Prompt Engineering — learning how to ask precise questions and critically evaluate AI answers
+         </p>
+
+         <p>(2) Ethics and Media Literacy — identifying bias, verifying sources, and using AI tools responsibly.
+          (3) Adaptability and Lifelong Learning — remaining curious, flexible, and open to continuous skill-building.
+         </p>
+
+         <h2>Conclusion</h2>
+
+         <p>A Tool, Not a Replacement — Artificial Intelligence is fundamentally changing education, but it is not a silver bullet, 
+         nor is it a replacement for human curiosity, creativity, and mentorship. At its best, AI serves as an empowering partner 
+         — a tool that removes administrative friction, customizes learning pathways, and expands access to knowledge for students 
+         across the globe. By approaching AI with both enthusiasm for its possibilities and healthy skepticism toward its limitations, 
+         we can build an educational future where technology enhances human potential rather than replacing it.
+         </p>
+
+         <h2>4.Sources & References</h2>
+
+         <h4>>UNESCO – Guidance for Generative AI in Education and Research (2023). Stanford University – 
+         Human-Centered Artificial Intelligence (HAI): AI's Role in K-12 Classrooms.
+          MIT Teaching Systems Lab – Envisioning the Future of Technology-Enabled Learning. 
+          World Economic Forum – The Future of Jobs Report: Emerging Skills and Technologies in Education.
+         </h4>
+
+        `
+    },
+
+
+    {
+        id: "What-is-ai",
+        title: "What is Artificial Intelligence?",
+        category: "AI",
+        author: "Arwa Arfidi",
+        date: "August 6, 2026",
+        readTime: "2 min read",
+        image: "blog/what-is-ai.png",
+        excerpt:
+            "From our computers to our smartphones, AI is becoming an integral part of our daily lives.",
+        content: `
+        
+        <h2>What is AI (Artificial Intelligence)?</h2>
+
+        <p>Artificial Intelligence (AI) is a branch of computer science that enables machines to 
+        perform tasks that normally require human intelligence. These tasks include learning, reasoning,
+        recognizing patterns, understanding language, and making decisions.
+        </p>
+
+        <h2>How does AI (Artificial Intelligence) Work?</h2>
+
+        <p>
+        Artificial Intelligence learns from data by recognizing patterns and making decisions using 
+        algorithms. As it processes more information, it becomes more accurate through machine learning, 
+        allowing it to perform tasks with increasing precision.
+        </p>
+
+        `
+    },
+
+
+    {
+        id: "volcanos",
+        title: "What Causes Volcanos to Erupt?",
+        category: "Science",
+        author: "Arwa Arfidi",
+        date: "August 6, 2026",
+        readTime: "2 min read",
+        image: "blog/volcano.png",
+        excerpt:
+            "We've all seen the dramatic images of volcanic eruptions, but what causes them to happen?",
+        content: `
+
+        <h2>What is a Volcano?</h2>
+
+        <p>A volcano is an opening in Earth's crust through which molten rock, gases, 
+        and ash escape. Beneath most volcanoes is a chamber filled with magma—hot, melted rock 
+        found below the surface. When magma reaches the surface, it is called lava.
+        </p>
+
+        <h2>What Causes Volcanos to Erupt?</h2>
+        
+        <p>
+        Most volcanoes are found near the edges of tectonic plates, the giant pieces that make up 
+        Earth's outer shell. As these plates move, magma rises through cracks in the crust. Over time,
+        gases trapped inside the magma build up pressure. When the pressure becomes stronger than the 
+        surrounding rock, the volcano erupts, releasing lava, ash, gases, and volcanic rocks.
+        </p>
+        `
+    },
+
+
+    {
+        id: "science-behind-rainbows",
+        title: "The Hidden Science Behind Rainbows",
+        category: "Science",
+        author: "Arwa Arfidi",
+        date: "August 6, 2026",
+        readTime: "2 min read",
+        image: "blog/rainbow.png",
+        excerpt:
+            "Rainbows are one of nature's most beautiful phenomena, but have you ever wondered how they form?",
+        content: `
+        <h2>What Causes Rainbows to Form?</h2>
+        
+        <p>Have you ever wondered why a rainbow appears after the rain? Although it looks magical, a rainbow
+         is actually created by science. It forms when sunlight shines through tiny water droplets in the air.
+         </p>
+         
+        <p>As the light enters a raindrop, it bends, reflects inside the droplet, and bends again as it leaves. 
+        This process separates white sunlight into the seven colors of the rainbow: red, orange, yellow, green, 
+        blue, indigo, and violet.
+        </p>
+
+      <p>A rainbow appears curved because millions of tiny raindrops reflect sunlight toward our eyes at the
+         same angle. Each raindrop acts like a tiny prism, bending and separating sunlight into different colors. 
+         When countless droplets do this at the same time, they create the colorful arc we see across the sky.
+       </p>
+
+        <p>Interestingly, no two people see exactly the same rainbow because each person views light from a different
+         set of raindrops.
+         </p>
+         
+        <h4>
+        This means every rainbow is unique, making each sighting a special experience.
+         </h4>
+       
         `
     },
 
@@ -240,20 +382,7 @@ const articles = [
         excerpt:
             "Technology is helping researchers and medical professionals better understand and support human health.",
         content: `
-            <p>
-                Medical science increasingly relies on technology to
-                collect information, develop treatments, and improve
-                patient care.
-            </p>
-
-            <h2>Medical engineering</h2>
-
-            <p>
-                Biomedical engineers combine biology, medicine,
-                mathematics, and engineering to develop technologies
-                such as prosthetics, diagnostic tools, and medical
-                devices.
-            </p>
+    
         `
     },
 
@@ -269,28 +398,7 @@ const articles = [
         excerpt:
             "STEM careers go far beyond the traditional jobs you may already know.",
         content: `
-            <p>
-                STEM includes an enormous range of careers. Scientists,
-                engineers, programmers, physicians, researchers,
-                mathematicians, designers, and many other professionals
-                contribute to STEM fields.
-            </p>
 
-            <h2>There isn't one STEM path</h2>
-
-            <p>
-                Some STEM careers involve building physical systems,
-                while others focus on research, healthcare, software,
-                education, or solving environmental challenges.
-            </p>
-
-            <h2>Explore what interests you</h2>
-
-            <p>
-                The best place to begin exploring STEM careers is by
-                asking what kinds of problems you enjoy solving and what
-                topics make you curious.
-            </p>
         `
     }
 

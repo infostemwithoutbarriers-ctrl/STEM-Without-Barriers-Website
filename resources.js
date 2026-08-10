@@ -51,7 +51,7 @@ const resources = [
 
         pdf: "resources/straw-bridge.pdf",
 
-        cover: "images/straw-bridge.png",
+        cover: "resources/straw-bridge.png",
 
         description:
             "Design and build a bridge using simple materials while exploring engineering, structural design, creativity, and problem-solving."
@@ -63,24 +63,24 @@ const resources = [
        ===================================================== */
 
     {
-        title: "STEM Coloring Challenge",
+        title: "Coloring Book of Emotions",
 
         category: "Coloring Pages",
 
         level: "Beginner",
 
-        time: "15–20 minutes",
+        time: "90–120 minutes",
 
         materials: "Crayons, colored pencils, or markers",
 
-        pdf: "resources/stem-coloring-challenge.pdf",
+        pdf: "resources/Coloring Book of Emotions.pdf",
 
-        cover: "images/stem-coloring-challenge.png",
+        cover: "resources/Coloring Book of Emotions.png",
 
         author: "STEM Without Barriers",
 
         description:
-            "A creative STEM coloring activity designed to introduce students to science, technology, engineering, and mathematics in a fun and accessible way."
+            "A creative STEM coloring activity designed to introduce students to emotions and feelings in a fun and accessible way."
     },
 
 
@@ -89,19 +89,21 @@ const resources = [
        ===================================================== */
 
     {
-        title: "Introduction to Engineering",
+        title: "🦠 Viruses",
 
         category: "STEM Lessons",
 
         level: "Beginner",
 
-        time: "30–45 minutes",
+        time: "1-5 minutes",
 
-        materials: "Pencil and paper",
+        materials: "Pencil, paper, and curiosity",
 
-        pdf: "resources/introduction-to-engineering.pdf",
+        pdf: "resources/viruses.png",
 
-        cover: "images/introduction-to-engineering.png",
+        cover: "resources/viruses.png",
+
+         author: "Arwa Afridi",
 
         description:
             "Explore what engineers do, how engineering solves real-world problems, and the different fields students can explore."
@@ -113,22 +115,24 @@ const resources = [
        ===================================================== */
 
     {
-        title: "STEM Career Exploration",
+        title: "Intro to STEM Challenge Worksheet",
 
         category: "STEM Worksheets",
 
         level: "Beginner",
 
-        time: "20–30 minutes",
+        time: "30-45 minutes",
 
-        materials: "Pencil",
+        materials: "Pencil, creativity, curiosity, and materials of your choosing!",
 
-        pdf: "resources/stem-career-exploration.pdf",
+        pdf: "resources/introstem.pdf",
 
-        cover: "images/stem-career-exploration.png",
+        cover: "resources/introstem.png",
+
+         author: "STEM Without Barriers",
 
         description:
-            "Discover different STEM careers and reflect on the subjects, skills, and interests that could lead to future opportunities."
+            "Discover STEM  and reflect on your interests, skills, and passions that help us solve problems in the world."
     },
 
 
@@ -137,7 +141,7 @@ const resources = [
        ===================================================== */
 
     {
-        title: "Example STEM Scholarship",
+        title: "NSHSS Foundation STEM Scholarship",
 
         category: "Scholarships",
 
@@ -147,13 +151,13 @@ const resources = [
 
         materials: "Application materials",
 
-        deadline: "2026-10-15",
+        deadline: "2026-10-20",
 
-        applyLink: "https://example.com",
+        applyLink: "https://www.nshss.org/scholarships/s/nshss-foundation-stem-scholarship-2026/",
 
-        pdf: "resources/example-stem-scholarship.pdf",
+        pdf: "resources/nshss.jpg",
 
-        cover: "images/example-stem-scholarship.png",
+        cover: "resources/NSHSS.png",
 
         description:
             "A scholarship opportunity for students interested in pursuing education and future careers in STEM."
@@ -165,7 +169,7 @@ const resources = [
        ===================================================== */
 
     {
-        title: "Example STEM Internship",
+        title: "OSTEM Internship",
 
         category: "Internships",
 
@@ -175,13 +179,13 @@ const resources = [
 
         materials: "Resume and application materials",
 
-        deadline: "2026-09-20",
+        deadline: "2026-09-14",
 
-        applyLink: "https://example.com",
+        applyLink: "https://www.nasa.gov/learning-resources/internship-programs/?utm_source=chatgpt.com",
 
-        pdf: "resources/example-stem-internship.pdf",
+        pdf: "resources/ostem-internship.png",
 
-        cover: "images/example-stem-internship.png",
+        cover: "resources/nasa.png",
 
         description:
             "An internship opportunity designed to give students exposure to STEM careers, professional environments, and real-world experiences."
@@ -193,7 +197,7 @@ const resources = [
        ===================================================== */
 
     {
-        title: "Example STEM Program",
+        title: "International STEM Research Challenge",
 
         category: "Programs",
 
@@ -201,15 +205,16 @@ const resources = [
 
         time: "Varies",
 
-        materials: "Application materials",
+        materials: "Internet Access",
 
-        deadline: "2026-11-01",
+        deadline: "2026-09-15",
 
-        applyLink: "https://example.com",
+        applyLink: "https://www.highschoolcompetition.org/apply",
+    
+        pdf: "resources/isr.png",
 
-        pdf: "resources/example-stem-program.pdf",
+        cover: "resources/ISRC.png",
 
-        cover: "images/example-stem-program.png",
 
         description:
             "A STEM-focused program designed to help students develop knowledge, skills, confidence, and connections."
@@ -221,7 +226,7 @@ const resources = [
        ===================================================== */
 
     {
-        title: "Example STEM Competition",
+        title: "Youth International Mathematics Olympiad (YIMO)",
 
         category: "Competitions",
 
@@ -229,15 +234,15 @@ const resources = [
 
         time: "Varies",
 
-        materials: "Varies",
+        materials: "Internet Access",
 
-        deadline: "2026-12-01",
+        deadline: "2026-08-27",
 
-        applyLink: "https://example.com",
+        applyLink: "https://www.yimo-official.org",
 
-        pdf: "resources/example-stem-competition.pdf",
+        pdf: "resources/yim.png",
 
-        cover: "images/example-stem-competition.png",
+        cover: "resources/yimo.png",
 
         description:
             "A STEM competition where students can challenge themselves, demonstrate their creativity, and apply STEM knowledge."
@@ -1319,25 +1324,100 @@ if (typeof resources !== "undefined" && Array.isArray(resources)) {
         level: "Beginner",
         time: "90-120 minutes",
         materials: "Crayons, colored pencils, or markers",
-        pdf: "resources/stem-coloring-challenge.pdf",
-        cover: "images/stem-coloring-challenge.png",
+        pdf: "resources/Space Coloring Book.pdf",
+        cover: "resources/Space Coloring Book Cover.png",
         author: "STEM Without Barriers",
         description:
-            "A creative STEM coloring activity designed to introduce students to science, technology, engineering, and mathematics in a fun and accessible way."
+            "A creative STEM coloring activity designed to introduce students to space in a fun and accessible way."
     });
 }
 // Add missing resource to the resources array
 if (typeof resources !== "undefined" && Array.isArray(resources)) {
     resources.push({
-        title: "Alphabet Career Coloring Book",
+        title: "Alphabet of Animals Coloring Book",
         category: "Coloring Pages",
         level: "Beginner",
         time: "90-120 minutes",
         materials: "Crayons, colored pencils, or markers",
-        pdf: "resources/stem-coloring-challenge.pdf",
-        cover: "images/stem-coloring-challenge.png",
+        pdf: "resources/Coloring Book Alphabet of Animals.pdf",
+        cover: "resources/Animal Alphabet Coloring Book.png",
         author: "STEM Without Barriers",
         description:
-            "A creative STEM coloring activity designed to introduce students to different careers using the alphabet in a fun and accessible way."
+            "A creative STEM coloring activity designed to introduce students to different animals using the alphabet in a fun and accessible way."
+    });
+}
+// Add missing resource to the resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+        title: "Paper Rockets STEM Challenge",
+        category: "STEM Activities",
+        level: "Beginner",
+        time: "30-45 minutes",
+        materials: "Plastic Straws, tape, scissors, paper, pencil, and paper cutouts",
+        pdf: "resources/paper-rockets.pdf",
+        cover: "resources/paper-rocket.png",
+        author: "STEM Without Barriers",
+        description:
+            "A creative STEM activity designed to introduce students to paper rocketry in a fun and accessible way."
+    });
+}
+// Add missing resource to the resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+        title: "Summer Coloring Book",
+        category: "Coloring Pages",
+        level: "Beginner",
+        time: "90-120 minutes",
+        materials: "Crayons, colored pencils, or markers",
+        pdf: "resources/Summer Coloring Book.pdf",
+        cover: "resources/Summer Coloring Book.png",
+        author: "STEM Without Barriers",
+        description:
+            "A creative STEM coloring activity designed to highlight different aspects of summer in a fun and cute way."
+    });
+}
+// Add missing resource to the resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+        title: "Spring Coloring Book",
+        category: "Coloring Pages",
+        level: "Beginner",
+        time: "90-120 minutes",
+        materials: "Crayons, colored pencils, or markers",
+        pdf: "resources/Spring Coloring Book.pdf",
+        cover: "resources/Spring Coloring Book.png",
+        author: "STEM Without Barriers",
+        description:
+            "A creative STEM coloring activity designed to highlight different aspects of spring in a fun and cute way."
+    });
+}
+// Add missing resource to the resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+        title: "Alphabet of Foods Coloring Book",
+        category: "Coloring Pages",
+        level: "Beginner",
+        time: "90-120 minutes",
+        materials: "Crayons, colored pencils, or markers",
+        pdf: "resources/Coloring Book Alphabet of Foods.pdf",
+        cover: "resources/Coloring Book Alphabet of Foods Cover.png",
+        author: "STEM Without Barriers",
+        description:
+            "A creative STEM coloring activity designed to highlight different aspects of the alphabet using foods in a fun and cute way."
+    });
+}
+// Add missing resource to the resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+        title: "What is Space Exploration?",
+        category: "STEM Lessons",
+        level: "Beginner",
+        time: "1-5 minutes",
+        materials: "Pencil, paper, and curiosity",
+        pdf: "resources/what-is-space-exploration.png", 
+        cover: "resources/what-is-space-exploration.png",
+        author: "STEM Without Barriers",
+        description:
+            "A creative STEM coloring activity designed to highlight different aspects of the alphabet using foods in a fun and cute way."
     });
 }
