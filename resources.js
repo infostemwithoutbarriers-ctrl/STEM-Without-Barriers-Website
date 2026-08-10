@@ -1424,12 +1424,12 @@ if (typeof resources !== "undefined" && Array.isArray(resources)) {
 // Add missing resource to the resources array
 if (typeof resources !== "undefined" && Array.isArray(resources)) {
     resources.push({
-        title: "Coloring Book Alphabet of Places?",
+        title: "Coloring Book Alphabet of Places",
         category: "Coloring Book",
         level: "Beginner",
         time: "90-120 minutes",
         materials: "Crayons, colored pencils, or markers",
-        pdf: "Coloring Book Alphabet of Places.pdf", 
+        pdf: "Places.pdf", 
         cover: "resources/Coloring Book Alphabet of Place.png",
         author: "STEM Without Barriers",
         description:
