@@ -75,7 +75,7 @@ const resources = [
 
         materials: "Crayons, colored pencils, or markers",
 
-        pdf: "resources/Coloring Book of Emotions.pdf",
+        pdf: "resources/Copy Coloring Book of Emotions.pdf",
 
         cover: "resources/Coloring Book of Emotions.png",
 

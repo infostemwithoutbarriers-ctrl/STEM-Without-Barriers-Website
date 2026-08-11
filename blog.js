@@ -397,9 +397,9 @@ const articles = [
     {
         id: "brain-fog" ,
         title: "What is Brain Fog and How to Prevent it?",
-        category: "AI",
+        category: "Medical",
         author: "Umber Kaila",
-        date: "August 6, 2026",
+        date: "August 11, 2026",
         readTime: "6 min read",
         image: "Blog/brain-fog.png",
         excerpt:
