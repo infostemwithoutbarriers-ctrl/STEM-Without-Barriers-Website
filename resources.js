@@ -65,7 +65,7 @@ const resources = [
        ===================================================== */
 
     {
-        title: "Coloring Book of Emotions",
+        title: "Coloring Book of Feelings and Emotions",
 
         category: "Coloring Pages",
 
@@ -75,7 +75,7 @@ const resources = [
 
         materials: "Crayons, colored pencils, or markers",
 
-        pdf: "resources/Copy Coloring Book of Emotions.pdf",
+        pdf: "resources/Copy of Coloring Book Alphabet of Feelings and Emotions.pdf",
 
         cover: "resources/Coloring Book of Emotions.png",
 
