@@ -1438,5 +1438,50 @@ if (typeof resources !== "undefined" && Array.isArray(resources)) {
             "A creative STEM coloring activity designed to highlight different aspects of the alphabet using places in a fun and cute way."
     });
 }
+// Add missing resource to the resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+        title: "The Human Body Cells and Tissues",
+        category: "STEM Lessons",
+        level: "Beginner",
+        time: "8-10 minutes",
+        materials: "Pencil, paper, and curiosity",
+        pdf: "resources/cells-body.pdf", 
+        cover: "resources/cells-body.png",
+        author: "Kunjing Guan",
+        description:
+            "A creative STEM lesson designed to introduce students to the different Cells and Tissues that make up the human body."
+    });
+}
+// Add missing resource to the resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+        title: "Exploring the Human Brain Coloring Book",
+        category: "Coloring Book" ,
+        level: "Beginner",
+        time: "30-45 minutes",
+        materials: "Pencil, paper, and curiosity",
+        pdf: "resources/explore-brain.pdf", 
+        cover: "resources/explore-the-human-brain.png",
+        author: "Arwa Arfidi",
+        description:
+            "A creative STEM Coloring Book designed to introduce students to the Human Brain in an informational and fun way."
+    });
+}
+// Add missing resource to the resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+        title: "Alphabet of Jobs Coloring Book",
+        category: "Coloring Book",
+        level: "Beginner",
+        time: "90-120 minutes",
+        materials: "Pencil, paper, and curiosity",
+        pdf: "resources/alphabet-jobs.pdf", 
+        cover: "resources/jobs.png",
+        author: "STEM Without Barriers",
+        description:
+            "A creative STEM lesson designed to introduce students to the different Cells and Tissues that make up the human body."
+    });
+}
 
 

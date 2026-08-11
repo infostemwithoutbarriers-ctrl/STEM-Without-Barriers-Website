@@ -607,35 +607,201 @@ const articles = [
 
 
     {
-        id: "medical-technology",
-        title: "The Role of Technology in Modern Medicine",
-        category: "Medical",
-        author: "STEM Without Barriers",
-        date: "August 2, 2026",
-        readTime: "5 min read",
-        image: "images/blog-medical.jpg",
+        id: "human-heart",
+        title: "The Human Heart",
+        category: "Biology",
+        author: "Kanak Dhami",
+        date: "August 10, 2026",
+        readTime: "7 min read",
+        image: "Blog/human-heart.png",
         excerpt:
-            "Technology is helping researchers and medical professionals better understand and support human health.",
+            "The Human Heart Beats Around 100,000 Times Per Day, But Is There More To It?",
         content: `
-    
+
+        <h4> The Human Heart beats around 100,000 times a day, it's also the about the size of a closed fist. But what else is there to know about it? 
+        The heart is a muscular organ that continuously pumps blood throughout the body"</h4>
+
+        <h2>What's Inside The Heart?</h2>
+
+        <p>The human heart is divided into four chambers that work together to maintain
+        continuous blood circulation.</p>
+
+        <h4>Right Atrium</h4>
+
+        <p>Receives oxygen-poor blood returning from the body through the superior and inferior vena cava.
+        </p>
+
+        <h4>Right Ventricle</h4>
+
+        <p> Pumps this blood towards the lungs through the pulmonary artery, where it can receive fresh oxygen.
+        </p>
+
+        <h4>Left Atrium</h4>
+
+        <p>Receives oxygen-rich blood from the lungs through the pulmonary veins.
+        </p>
+
+        <h4>Left Ventricle</h4>
+
+        <p>The strongest chamber. It pumps oxygen-rich blood through the aorta to the entire body.
+        </p>
+
+        <h4>The Values - One Way Doors</h4>
+
+        <p> The tricuspid, pulmonary, mitral and aortic valves open and close with the heartbeat. 
+        They prevent blood from flowing backwards.
+        </p>
+
+        <h2>The Journey of a Drop of Blood</h4>
+
+        <h4>1. From The Body</h4>
+
+        <p>After delivering oxygen to tissues, blood becomes oxygen-poor and returns to the heart through the vena cava.
+        </p>
+
+         <h4>2. Into The Right Side</h4>
+
+        <p>It enters the right atrium, moves through the tricuspid valve and reaches the right ventricle.
+        </p>
+
+         <h4>3. To The Lungs</h4>
+
+        <p>The right ventricle pumps it through the pulmonary artery to the lungs.
+        </p>
+
+         <h4>4. Oxygen Pick-Up </h4>
+
+        <p>In the lungs, carbon dioxide is released and oxygen is absorbed.
+        </p>
+
+         <h4>5. Back To The Heart</h4>
+
+        <p>Oxygen-rich blood returns through the pulmonary veins and enters the left atrium.
+        </p>
+
+         <h4>6. Out To The Body</h4>
+
+        <p>It moves into the left ventricle and is pumped through the aorta to supply the entire body.
+        </p>
+
+        <h2>How Does The Heart Beat?"</h2>
+
+        <h4>Your Heart Has It's Own Electrical System</h4>
+
+        <p>The heart doesn't need someone to tell it when to beat. Special cells generate and conduct 
+        electrical signals that coordinate each heartbeat.</p>
+
+        <h4>The Signal Starts Here ↓</h4>
+
+        <h4>SA NODE</h4>
+
+        <p>The sinoatrial node acts as the heart's natural pacemaker. It generates an electrical 
+        impulse that causes the atria to contract.</p>
+
+        <h4>AV NODE ↓</h4>
+
+        <p>The signal reaches the atrioventricular node, where it is briefly delayed. 
+        This gives the ventricles time to fill with blood..</p>
+        
+        <h4>BUNDLE OF HIS</h4>
+
+        <h4>PURKINJE FIBRES ↓</h4>
+
+        <p>The electrical signal spreads through the ventricles, causing them to contract and pump blood out.
+        </p>
+
+        <h2>Systole + Diastole</h4>
+
+        <p>Systole: The heart contracts and pumps blood out.</p>
+
+        <p>Diastole: The heart relaxes and fills with blood.</p>
+
+        <p>Together, these phases form the cardiac cycle.</p>
+
+        <h2>See It In Action/h4>
+
+        <p>An ECG (electrocardiogram) records the electrical activity of the heart and produces the familiar 
+        wave pattern seen in medical monitoring.</p>
+
+        <h2>Who Supplies The Heart Issue</h2>
+
+        <p>It might seem strange, but the heart cannot simply take all the oxygen it needs from the blood 
+        passing through its chambers.
+        </p>
+
+        <p>The heart muscle receives its own oxygen-rich blood through the coronary arteries. These vessels branch 
+        from the aorta and spread across the surface of the heart, supplying the cardiac muscle with oxygen and nutrients.
+        After the heart muscle uses the oxygen, the blood is collected by cardiac veins and eventually returns to the right 
+        atrium through the coronary sinus.
+        </p>
+
+        <h2>Why Is This Important</h2>
+
+        <p>The heart works continuously, so its muscle requires a constant supply of oxygen. If'a coronary artery becomes 
+        severely blocked, part of the heart muscle may not receive enough oxygen. This can lead to a heart attack.
+        <p/>
+
         `
     },
 
-
     {
-        id: "stem-careers",
-        title: "Exploring Careers in STEM",
-        category: "Careers",
-        author: "STEM Without Barriers",
-        date: "August 1, 2026",
-        readTime: "6 min read",
-        image: "images/blog-careers.jpg",
+        id: "science-farming",
+        title: "The Science of Farming",
+        category: "Science",
+        author: "Arwa Afridi",
+        date: "August 11, 2026",
+        readTime: "7 min read",
+        image: "Blog/farming-science.png",
         excerpt:
-            "STEM careers go far beyond the traditional jobs you may already know.",
+            "Farming has assisted and been a huge part our lives in more ways than one. But What's The Science Behind It?.",
         content: `
+
+        <h2>Crop Enhancement</h2>
+
+        <p>Crop improvement is the process of developing plants with better and more useful 
+        characteristics. Scientists use methods such as selective breeding and genetic 
+        techniques to produce crops with higher yields, better quality, improved disease 
+        esistance, and greater tolerance to environmental conditions.
+        </p>
+
+        <h2>Plant Breeding</h2>
+
+        <p>Plant breeding is the selection and crossing of plants to produce better crops.
+        </p>
+        <h4>Why is it important?</h4>
+        <p>
+        • Higher crop yield
+        • Better nutritional value
+        • Disease resistance
+        </p>
+
+        <h2>Smart Farming</h2>
+        
+        <p>Smart farming uses technology, sensors, and data to monitor crops and soil. 
+        It helps farmers use water, fertilizers, and other resources more efficiently while
+        improving crop production.
+        </p>
+
+        <h2>Pest Control</h2>
+
+        <p>Pest control is the management of organism that damage crops.
+        </p>
+
+        <h4>Common Methods</h4>
+        • Biological control
+        • Chemical control
+        • Natural predators
+        • Resistant crops
+
+        <h2>Agricultural Drones</h2>
+
+        <p>Agricultural drones are unmanned flying devices used to monitor crops, 
+        detect problems, and collect information about farmland. They help farmers observe 
+        large areas quickly and accurately.</p>
 
         `
     }
+
 
 ];
 
@@ -828,3 +994,4 @@ searchInput.addEventListener(
 ========================================================= */
 
 displayArticles();
+
