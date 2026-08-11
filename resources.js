@@ -75,7 +75,7 @@ const resources = [
 
         materials: "Crayons, colored pencils, or markers",
 
-        pdf: "resources/Copy of Coloring Book Alphabet of Feelings and Emotions.pdf",
+        pdf: "resources/Feelings and Emotions.pdf",
 
         cover: "resources/Coloring Book of Emotions.png",
 
