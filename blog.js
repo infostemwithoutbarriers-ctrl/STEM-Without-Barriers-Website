@@ -318,8 +318,7 @@ const articles = [
         `
     },
 
-
-    {
+     {
         id: "What-is-ai",
         title: "What is Artificial Intelligence?",
         category: "AI",
@@ -344,6 +343,104 @@ const articles = [
         Artificial Intelligence learns from data by recognizing patterns and making decisions using 
         algorithms. As it processes more information, it becomes more accurate through machine learning, 
         allowing it to perform tasks with increasing precision.
+        </p>
+
+        `
+    },
+
+     {
+        id: "green-movement",
+        title: "Join The Green Movement",
+        category: "Science",
+        author: "Arwa Arfidi",
+        date: "August 11, 2026",
+        readTime: "4 min read",
+        image: "Blog/green-movement.png" ,
+        excerpt:
+            "A Plant Is A Living Organism",
+        content: `
+        
+        <h2>The World Of Plants</h2>
+
+        <p>Plants are all around us, from the grass beneath our feet to the trees above us.
+        They come in countless shapes, sizes, and colours, and each has its own way of surviving and
+        growing.</p>
+
+        <p>Plants provide food, shelter, oxygen, and many of the resources we depend on every day. 
+        They are a small but powerful part of the natural world.</p>
+
+        <h2>Did You Know?</h2>
+
+        <p>
+        - Bamboo is one of the fastest-growing plants in the world and can grow remarkably quickly.
+
+        - Sunflowers can track the movement of the Sun as they grow. 
+
+        - Some plants can communicate with nearby plants using chemical signals. 
+
+        - Plants can respond to touch — some species fold their leaves or change their growth when touched.
+        </p>
+
+        <h4>Let's plant one today! From an incredible little seed, something beautiful can grow.<h4>
+
+        <h4>Let's plant a tree & save the Earth</h4>
+
+        <h2>Plant Today. Grow Tomorrow.</h2>
+
+        `
+
+    
+    },
+    
+
+
+    {
+        id: "brain-fog" ,
+        title: "What is Brain Fog and How to Prevent it?",
+        category: "AI",
+        author: "Umber Kaila",
+        date: "August 6, 2026",
+        readTime: "6 min read",
+        image: "Blog/brain-fog.png",
+        excerpt:
+            "Brain Fog is often referred to a heavy, clody haze in your mind.",
+        content: `
+
+        <p>Have you ever had sluggish thoughts, your brain feels slow your reaction takes longer or you feel 
+        drained but you haven’t done any hard physical movement or you have read a page 3 times but can’t 
+        remember what the page was saying or when you forget simples task such as appointments, chores or even 
+        recent conversation slip through your mind. No you are not lazy, No you are not extremely tired, No the 
+        stress is not coming from your job. You are just experiencing brain fog.
+        </p> 
+        
+        <h2>What is Brain Fog?</h2>
+
+        <p>Brain fog is when your mind feels slow, fuzzy or tired, this usually happens when everyday habits or 
+        health issues disrupt your mental clarity causing poor sleep, high stress and poor nutrition. It is 
+        not a disease, it is just a sign that your brain is tired or lacking energy.
+        </p>
+
+        <h2>How to Prevent it?</h2>
+
+        <p>
+        The ways you can prevent brain fog is by improving daily habits like getting 7 to 9 hours of sleep per 
+        day, trying going to bed at the same time and also waking up at the same time everyday . Take 30 minutes 
+        of your day to take a rest break to clear your mind from heavy tasks. Reduce screen time before bed to 
+        help your brain fully wind down.
+        </p>
+
+        <p>
+        Eat a balanced meal. Eat whole foods like vegetables, fruits,nuts, lean protein, avoid high sugar 
+        instead eat healthy fat. Eat high protein meals to avoid energy crashing and to help your blood sugar. 
+        Drink enough water throughout the day because dehydration directly causes mental fatigue. 
+        </p>
+
+        <p>
+        Take 30 minutes of your day to do some type of physical movement, this could include taking a walk, going 
+        for a run or even going to the gym as physical movement will help boost blood flow to the brain. Take at 
+        least a 10 minute walk outside because this anchors your body clock. Practice deep breathing exercise, go 
+        on short walks, or meditate whenever you are feeling stressed. Lower your intake of caffeine and alcohol 
+        because these substances disrupt natural energy and sleep cycle. 
         </p>
 
         `
@@ -718,7 +815,7 @@ const articles = [
 
         <p>Together, these phases form the cardiac cycle.</p>
 
-        <h2>See It In Action/h4>
+        <h2>See It In Action</h4>
 
         <p>An ECG (electrocardiogram) records the electrical activity of the heart and produces the familiar 
         wave pattern seen in medical monitoring.</p>
@@ -994,4 +1091,5 @@ searchInput.addEventListener(
 ========================================================= */
 
 displayArticles();
+
 
