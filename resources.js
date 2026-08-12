@@ -77,7 +77,7 @@ const resources = [
 
         pdf: "resources/Feelings and Emotions.pdf",
 
-        cover: "resources/emotions.png",
+        cover: "resources/emotions.png" ,
 
         author: "STEM Without Barriers",
 
