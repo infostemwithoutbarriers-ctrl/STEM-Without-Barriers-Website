@@ -1483,5 +1483,20 @@ if (typeof resources !== "undefined" && Array.isArray(resources)) {
             "A creative STEM lesson designed to introduce students to the different Cells and Tissues that make up the human body."
     });
 }
+// Add missing resource to the resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+        title: "Ocean Coloring Book",
+        category: "Coloring Book",
+        level: "Beginner",
+        time: "90-120 minutes",
+        materials: "Pencil, paper, and curiosity",
+        pdf: "resources/OCEAN COLORING BOOK.pdf", 
+        cover: "resources/OCEAN COLORING BOOK.png",
+        author: "Arwa Afridi" , 
+        description:
+            "A creative STEM Coloring Book designed to highlight the Ocean in a fun and cute way."
+    });
+}
 
 
