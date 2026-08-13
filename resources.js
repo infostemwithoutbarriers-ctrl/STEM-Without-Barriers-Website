@@ -1492,7 +1492,7 @@ if (typeof resources !== "undefined" && Array.isArray(resources)) {
         time: "60-80 minutes",
         materials: "Pencil, paper, and curiosity",
         pdf: "resources/OCEAN COLOURING BOOK.pdf", 
-        cover: "resources/OCEAN COLOURING.png",
+        cover: "resources/OCEAN COLOURING BOOK.png",
         author: "STEM Without Barriers",
         description:
             "A creative STEM coloring book designed to highlight different aspects of the ocean in a fun and cute way."
