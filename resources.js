@@ -1496,7 +1496,7 @@ if (typeof resources !== "undefined" && Array.isArray(resources)) {
         author: "Arwa Afridi" , 
         description:
             "A creative STEM Coloring Book designed to highlight the Ocean in a fun and cute way."
-    });
+    });x
 }
 
 
