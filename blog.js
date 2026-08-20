@@ -351,13 +351,13 @@ const articles = [
      {
         id: "green-movement",
         title: "Join The Green Movement",
-        category: "Science",
+        category: ["Science", "Biology"],
         author: "Arwa Arfidi",
         date: "August 11, 2026",
         readTime: "4 min read",
         image: "Blog/green-movement.png" ,
         excerpt:
-            "A Plant Is A Living Organism",
+            "Plants are living organisims that make up the world around us! But is there more we don't know about them?",
         content: `
         
         <h2>The World Of Plants</h2>
@@ -385,7 +385,7 @@ const articles = [
 
         <h4>Let's plant a tree & save the Earth</h4>
 
-        <h2>Plant Today. Grow Tomorrow.</h2>
+        <h2>Plant Today. Grow Tomorrow</h2>
 
         `
 
@@ -397,7 +397,7 @@ const articles = [
     {
         id: "brain-fog" ,
         title: "What is Brain Fog and How to Prevent it?",
-        category: "Medical",
+        category: ["Medical", "Biology", "Science"],
         author: "Umber Kaila",
         date: "August 11, 2026",
         readTime: "6 min read",
@@ -475,6 +475,112 @@ const articles = [
         surrounding rock, the volcano erupts, releasing lava, ash, gases, and volcanic rocks.
         </p>
         `
+    },
+
+     {
+        id: "immune-system",
+        title: "The Immune System: How Your Body Protects You",
+        category: ["Science", "Biology", "Medical"],
+        author: "Arwa Arfidi",
+        date: "August 17, 2026",
+        readTime: "4 min read",
+        image: "Blog/immunity.png" ,
+        excerpt:
+            "Every second, every day, our body is surrounded by a world that is unseen. Our immune systems are running constantly everyday just to keep us alive. But, how exactly is it working to protect us?",
+        content: `
+        
+        <h2>The invisible Caretakers</h2>
+
+        <p>Tiny organisms surround us—in the air we breathe, on the surfaces we touch, in the food we eat, and 
+        even on our own skin. Many of these microorganisms are harmless, but some can enter our bodies and cause 
+        disease.</p>
+
+        <h4>So, how does our body know which microorganisms are dangerous?</h4>
+
+        <p>The answer lies within one of the most remarkable systems in our body: the immune system. The immune 
+        system is a complex network of cells, tissues, organs, and chemical signals that work together to protect 
+        our bodies against harmful pathogens. It continuously monitors our body, identifies unfamiliar substances, 
+        and responds when a threat or pathogen enters.
+        </p>
+
+        <p>But the immune system does not begin fighting only after we become sick. Our bodies have several layers of 
+        protection that work together to stop harmful organisms before they can cause problems.
+        </p>
+
+        <h2>Your Body's First Line of Defense</h2>
+
+        <p>Before an invading pathogen even meets an immune cell, it has to get past your body's first defenses. 
+        Your body is surrounded by physical and chemical barriers designed to prevent harmful microorganisms from 
+        entering.
+        </p>
+
+        <h4>Skin: Your Protective Shield</h4>
+
+        <p>Your skin is one of your body's most important defenses. It forms a tough physical barrier that separates the 
+        inside of your body from the outside environment. Healthy skin makes it difficult for many microorganisms to enter. 
+        It also produces substances that can make the surface less suitable for certain harmful microbes.
+        </p>
+
+        <h4>Tears: More Than Just Water</h4>
+
+        <p> Your eyes have their own protective system. Tears continuously wash the surface of the eye and contain substances 
+        that can damage certain bacteria. Every blink helps spread this protective fluid across your eyes.
+        </p>
+
+        <h4>Mucus: The Sticky Trap<h4>
+
+        <p>Inside parts of your respiratory system, mucus helps trap dust, particles, and microorganisms. Tiny hair-like 
+        structures called cilia can then move the mucus away from deeper parts of the respiratory tract, helping keep unwanted 
+        particles from reaching your lungs.
+        </p>
+
+        <h2>Identification of a Threat By Immune System</h2>
+
+        <p>Sometimes, however, a pathogen manages to get past the body's outer defenses. This is when the immune system 
+        begins a stronger and more active response. Our body contains specialized immune cells that can recognize signs 
+        of danger. When a potential pathogen is detected, these cells can release chemical signals that help coordinate 
+        the immune response.
+        </p>
+
+        <h4>Step 1: Detect</h4>
+
+        <p>Immune cells identify structures or substances associated with pathogens. This allows the immune system to 
+        recognize that something unfamiliar may be present.
+        </p>
+
+        <h4>Step 2: Signal</h4>
+
+        <p>Chemical signals are released to alert other immune cells and help bring them to the area 
+        where the pathogen has been detected.
+        </p>
+
+        <h4>Step 3: Respond</h4>
+
+        <p>Different immune cells have different jobs. Some surround and destroy harmful microorganisms, while others 
+        coordinate the immune response and help activate other immune cells. White blood cells play an important role in 
+        identifying and fighting infections.
+        </p>
+
+        <h2>A System That Remembers</h2>
+
+        <p>The immune response is not a chaotic battle. It is a carefully coordinated process in which millions of immune 
+        cells communicate and work together. But the immune system has another remarkable ability: it can remember certain 
+        pathogens it has encountered before.
+        </p>
+
+        <p>This is known as immune memory. If the same pathogen enters the body again, the immune system can recognize it and 
+        respond more quickly and effectively. The immune system doesn't just defend the body—it learns from the past.
+        </p>
+
+        <h3>Did You Know?</h3>
+
+        <p>Your skin is the largest organ in your body, and it acts as one of your first defenses against harmful microorganisms. 
+        It creates a physical barrier that helps prevent many pathogens from entering your body in the first place.
+        </p>
+
+        `
+
+    
     },
 
 
@@ -844,8 +950,9 @@ const articles = [
     {
         id: "science-farming",
         title: "The Science of Farming",
-        category: "Science",
+        category: ["Science" , "Biology"],
         author: "Arwa Afridi",
+        translator: null ,
         date: "August 11, 2026",
         readTime: "7 min read",
         image: "Blog/farming-science.png",
@@ -900,7 +1007,337 @@ const articles = [
     }
 
 
+,{
+        id: "cognitive-bias",
+        title: "What is Cognitive Bias?",
+        category: ["Science" , "Biology"],
+        author: "Umber Kaila",
+        translator: null ,
+        date: "August 12, 2026",
+        readTime: "6-8 min read",
+        image: "Blog/cognitivebias.png",
+        excerpt:
+            "Loss Aversion? Herd Mentality? Does this sound familar? These are all different examples of cognitive biases! But is there more to it?",
+        content: `
+
+        <h2>What is it?</h2>
+
+        <p>Cognitive Bias is when your brain takes a mental shortcut when processing information, the reason why your brain 
+        takes a mental shortcut is to save energy, but when your brain takes a mental shortcut it could also lead your brain 
+        into thinking a wrong conclusion.
+        </p>
+
+        <h2>Why does this happen?</h2>
+
+        <p>The reason why this might happen is because your brain may face too much information in a day, your brain can not 
+        handle all this information all at once so it uses shortcuts to save time and save energy. The brain uses shortcuts 
+        called heuristics to make faster choices. Heuristics is a practical mental shortcut used to solve problems or make 
+        decisions quickly. The shortcuts may be faster, save energy and help you survive but they may cause systematic 
+        thinking errors.
+        </p>
+
+        <h2>The Different Types</h2>
+        
+        <p>There are many different types of Cognitive Bias. Confirmation Bias, Anchoring Bias, Bandwagon effect, Availability 
+        Heuristics. Confirmation Bias is when you are only looking for facts that already prove what you believe in. Anchoring
+        Bias is when you trust the very first information you hear too much of it. Bandwagon effect is when you believe something 
+        just because everyone else believes it. Availability Heuristics is when you are judging a risk by how easily you remember 
+        the dramatic example. 
+        </p>
+
+        <h2>How Can You Prevent It?/h2>
+
+        <p>The way you can prevent cognitive bias is to slow down your thinking instead of taking shortcuts, stop and wait before 
+        you make a decision or jump too fast towards the conclusion. When trying to prove your side is right with research and data, 
+        try to find data or facts that challenge what you already believe in to be true. Ask others. Talk to people with different 
+        backgrounds to find the blind spot in your own thinking. Check the current state you are in, notice if you are too tired, 
+        rushed, or stressed, because if you are in any of these conditions then your brain relies more on bias than critical thinking. 
+        List your assumptions, write down what you actually know rather than you guessing.  
+        </p>
+
+        `
+    }
+,{
+        id: "butterflies-transform",
+        title: "How Do Butterflies Transform?",
+        category: ["Science" , "Biology"],
+        author: "Arwa Afridi",
+        translator: null ,
+        date: "August 16, 2026",
+        readTime: "10 min read",
+        image: "Blog/butterfly.png",
+        excerpt:
+            "Butterflies are beautiful enchanting creatures! So much so, that we can't help but wonder where they come from. Have they always had their beautiful wings and colors?",
+        content: `
+
+        <h2>How Do Butterflies Transform</h2>
+
+        <p>Have you ever imagined how a tiny caterpillar can transform into a magnificent butterfly? This remarkable 
+        process is known as metamorphosis. Unlike humans, butterflies undergo a dramatic transformation during their life cycle, 
+        changing their body structure completely as they grow.
+        </p>
+
+        <p>A butterfly's life cycle consists of four fascinating stages: egg, larva (caterpillar), pupa (chrysalis), 
+        and adult butterfly. Each stage has a different purpose and sets the stage for the butterfly's development.
+        </p>
+
+        <p>But how does this incredible transformation actually happen? Let's explore each stage and uncover the science 
+        behind one of nature's most extraordinary transformations.
+        </p>
+
+        <h2>The Beginning: The Egg</h2>
+
+        <p>The transformation of a butterfly begins with a tiny egg. After mating, the female butterfly carefully lays her 
+        eggs, usually on the leaves of a plant that will later provide food for the young caterpillars. Although the eggs 
+        may appear small and delicate, they contain everything needed for a new butterfly to begin developing.
+        </p>
+
+        <p>Inside the egg, the embryo gradually develops as it receives nutrients from the egg. After a period of development, 
+        a tiny caterpillar eventually emerges from the egg and begins the next stage of its life. This may seem like a simple 
+        beginning, but the egg is the first important step in the butterfly's extraordinary life cycle.
+        </p>
+
+        <h4>The Hungry Caterpillar</h4>
+        <p>
+        After emerging from its egg, the butterfly enters its second stage of life as a larva, commonly known as a caterpillar. 
+        At this stage, its main motive is to feed and develop. Caterpillars can consume large amounts of plant material, 
+        providing them with the nutrients they require for growth.
+        </p>
+
+        <p>As the caterpillar grows, its outer skin becomes too small for its expanding body. It therefore sheds its previous skin 
+        and develops a larger one. This process, known as molting, happens several times during the larval stage.
+        </p>
+
+        <p>Although the caterpillar looks entirely different from an adult butterfly, significant changes are already taking place 
+        inside its body. It is preparing for the next and most dramatic stage of metamorphosis.
+        </p>
+
+        <h2>Inside the Chrysalis</h2>
+
+        <p>After the caterpillar has grown enough, it enters the third stage of its life cycle: the pupa, commonly known as the 
+        chrysalis. During this stage, the caterpillar binds itself to a suitable surface and forms a protective outer covering 
+        around its body.
+        </p>
+
+        <p>Inside the chrysalis, an extraordinary transformation takes place. The caterpillar's body is gradually reorganised, 
+        and specialised structures develop into the wings, legs, antennae, and other features of an adult butterfly.
+        </p>
+
+        <p>Although the chrysalis may appear utterly still from the outside, an incredible amount of biological activity is 
+        taking place within it. This is the stage where the caterpillar undergoes its most incredible transformation, preparing 
+        to emerge as a fully developed butterfly.
+        </p>
+
+        <h2>The Emergence of a Butterfly</h2>
+
+        <p>After spending time inside the chrysalis, the fully developed butterfly is eventually primed to emerge. It meticulously 
+        breaks through the chrysalis and pulls itself out, unleashing its newly formed body and wings. At first, its wings are soft, 
+        folded, and too delicate for flight. The butterfly pumps fluid into the veins of its wings, causing them to expand and gradually 
+        become firm. Once its wings are fully developed and dry, it can take its first flight.
+        </p>
+
+        <p>The transformation from a tiny caterpillar into a flying butterfly is truly stupendous. From egg to larva, pupa, and finally 
+        adult, each stage plays an essential role in completing the butterfly's extraordinary life cycle.
+        </p>
+
+        `
+    }
+
+,{
+        id: "cognitive-bias",
+        title: "Why Do Icebergs Float?",
+        category: ["Science", "Physics"],
+        author: "Arwa Arfidi",
+        translator: null ,
+        date: "August 13, 2026",
+        readTime: "8-10 min read",
+        image: "Blog/iceberg.png",
+        excerpt:
+            "When people hear 'Iceberg' they traditionaly think of the Titanic! But these icy structures have a lot more to them!",
+        content: `
+
+        <h2>Why does Ice Float?</h2>
+
+        <p>Have you ever wondered why a huge piece of ice can float on water instead of sinking? The answer lies in density. 
+        Density describes how much matter is packed into a certain amount of space. When liquid water freezes, its molecules 
+        arrange themselves into a special structure that leaves more space between them. This causes ice to become less dense 
+        than liquid water. Because ice is less dense than water, it floats on the surface.
+        </p>
+
+        <p>Another important idea is buoyancy, which is the upward force that water exerts on an object. When an iceberg is 
+        placed in the ocean, the water pushes upward against it. This upward force helps support the weight of the iceberg 
+        and keeps it floating.
+        </p>
+
+        <p> Water has a very unusual property because most substances become denser when they become solid, but water expands 
+        when it freezes. This is why ice floats and why frozen lakes and ponds form ice on the surface rather than freezing 
+        completely from the bottom upward.
+        </p>
+
+
+        <h2>The Hidden Part of an Iceberg</h2>
+        
+        <p>When we look at an iceberg floating in the ocean, we only see a small part of it. Most of the iceberg is actually 
+        hidden beneath the water. This happens because ice is only slightly less dense than seawater. Usually, around one-tenth 
+        of an iceberg is visible above the surface, while roughly nine-tenths remains underwater.
+        </p>
+
+        <p>The exact amount can vary depending on the shape, size, and type of ice. The underwater section can extend deep into the 
+        ocean, making icebergs much larger than they appear. This is also why ships and boats need to keep a safe distance from 
+        icebergs—the part that cannot be seen can be surprisingly large.
+        </p>
+
+        <h4>Fun Fact</h4>
+
+        <p>The phrase “the tip of the iceberg” comes from this idea. It means that we can see only a small part of something while a 
+        much larger part remains hidden.
+        </p>
+
+        <h2>How Do Icebergs Form?/h2>
+
+        <p>Icebergs have a fascinating journey that begins on land, not in the ocean. In extremely cold regions such as Antarctica and 
+        Greenland, snow falls year after year. Because the temperature stays low, the snow does not completely melt. Instead, new layers 
+        of snow build up on top of older layers and become compressed under their own weight. Over a very long period of time, this process 
+        creates enormous masses of solid ice called glaciers and ice sheets.
+        </p>
+
+        <p>As glaciers slowly move toward the coast, they eventually reach the ocean. When a large piece of ice breaks away from the 
+        edge of a glacier and falls or floats into the sea, this process is called calving. The newly separated piece becomes an iceberg.
+        </p>
+
+        <p>Once an iceberg enters the ocean, it can be carried by ocean currents and winds. Some icebergs travel great distances through 
+        the sea while slowly becoming smaller as they melt. Eventually, the iceberg may completely melt and return its freshwater to the 
+        ocean. So, every iceberg is part of a much longer journey—from snowfall, to glacier, to ocean, and finally back into the water.
+        </p>
+
+        <h2>What Happens to Icebergs as They Melt?/h2>
+
+        <p>After an iceberg breaks away from a glacier, it begins a slow journey through the ocean. As it moves into warmer waters, 
+        heat from the surrounding seawater and air causes the ice to melt. Waves and ocean currents can also break pieces away from 
+        the iceberg, gradually changing its shape and size.
+        </p>
+
+        <p>As the iceberg becomes smaller, more of its surface is exposed to the warmer environment, causing it to continue melting. 
+        Eventually, the entire iceberg disappears into the ocean as the solid ice turns back into liquid water.
+        </p>
+
+        <p>Icebergs can survive for months or even several years, depending on their size, location, water temperature, and ocean 
+        conditions. A huge iceberg in very cold water may last much longer than a smaller iceberg in warmer conditions.
+        </p>
+
+        <p>The melting of icebergs is a natural part of the water cycle. The freshwater stored in the ice is eventually released 
+        into the ocean, where it becomes part of the Earth's enormous water system.
+        </p>
+
+        <h2>Icebergs and Ocean Currents/h2>
+
+        <p>Icebergs do not simply stay in one place after they enter the ocean. They can travel long distances because of ocean currents 
+        and wind. Ocean currents are large movements of seawater that carry heat, nutrients, and floating objects around the world. When 
+        an iceberg enters the ocean, these currents can push it in different directions.
+        </p>
+
+        <p>The movement of an iceberg can also be affected by its underwater shape. Since most of the iceberg is below the surface, the water 
+        surrounding it has a major influence on how it moves. Wind can push the part above the water, while ocean currents act on the much 
+        larger section underneath.
+        </p>
+
+        <p>As icebergs travel, they may move into warmer or colder waters. In warmer regions, they usually melt faster, while colder conditions 
+        can allow them to survive for longer. Scientists can track large icebergs using satellite images and other technology to study where 
+        they travel and how quickly they change.
+        </p>
+
+        <p>Understanding iceberg movement is useful for studying the ocean, climate, and marine environments. It also helps scientists monitor 
+        large icebergs as they travel through areas used by ships.
+        </p>
+
+        <h2>Why Are Icebergs Important/h2>
+
+        <p>Icebergs are more than just giant pieces of floating ice. They play an important role in polar ecosystems and the ocean environment. 
+        As icebergs slowly melt, they release freshwater and minerals into the surrounding ocean. These nutrients can support tiny organisms 
+        such as phytoplankton, which are an important part of the marine food chain. 
+        </p>
+
+        <p>Icebergs can also provide temporary surfaces where seals, seabirds, and other animals may rest. In addition, the freshwater and 
+        nutrients released from melting ice can become part of ocean circulation. Studying icebergs also helps scientists understand changes 
+        in polar regions and the climate system. By observing how ice forms, moves, and melts, scientists can learn more about the changing 
+        conditions of Earth's coldest environments.
+        </p>
+
+        <h4>Icebergs may seem like simple blocks of ice, but they are connected to many processes happening throughout our planet's oceans.
+        </h4>
+        
+        `
+    },
+
+    {
+        id: "octopus-intelligent",
+        title: "Why Are Octopuses So Intelligent?",
+        category: ["Science" , "Biology"],
+        author: "Arwa Afridi",
+        translator: null ,
+        date: "August 16, 2026",
+        readTime: "7 min read",
+        image: "Blog/octopus-intelligent.png",
+        excerpt:
+            "Octopie are known to be quite intelligent. But how is this intelligence shown> .",
+        content: `
+
+        <h2>A Brain Unlike Ours</h2>
+
+        <p>One of the most intriguing facts about octopuses is their uncanny, formidable, and peculiar nervous system. 
+        Unlike humans, whose neurons are mainly concentrated in the brain and spinal cord, octopuses have a vast number 
+        of neurons spread throughout their arms.
+        </p>
+
+        <p>Yes, it is indeed fascinating to hear that! This means their arms can process information about their surroundings 
+        while they explore. Each arm contains networks of neurons that help the octopus sense and respond to its environment, 
+        allowing it to interact with objects and investigate its surroundings in remarkable ways.
+        </p>
+
+        <h2>Masters of Problem-Solving</h2>
+
+        <p>Octopuses are exceptionally talented at problem-solving. They can learn from their surroundings, grasp concepts from 
+        their experiences, remember particular events, and figure out how to interact with unfamiliar objects.
+        </p>
+
+        <p>Scientists have observed octopuses opening containers, navigating challenging spaces, and finding creative ways to 
+        reach food. Their intelligence becomes especially useful when they face novel challenges. Instead of simply reacting, 
+        octopuses explore the situation using their arms, gather information from their surroundings, and then take action after 
+        deciding what to do.
+        </p>
+
+        <h2>Learning From Experience</h2>
+        
+        <p>Octopuses are not only able to solve obstacles; they can also learn from experiences. When they encounter a new 
+        situation, they explore it and remember what happens.
+        </p>
+
+        <p>The ability to learn from experience is an important part of intelligence. It enables octopuses to adapt to 
+        different surroundings instead of relying only on instinct. For example, after discovering how something works, an 
+        octopus may remember the experience and use what it has learned when facing a similar situation later.
+        </p>
+
+        <h2>Masters of Disguise</h2>
+
+        <p>One of the most incredible abilities of octopuses is their remarkable talent for camouflage. With remarkable speed, 
+        they can change the colour and appearance of their skin to blend into their surroundings, making it difficult for 
+        predators to notice them.
+        </p>
+        
+        </p> This ability is made possible by specialised cells in their skin called chromatophores. These cells contain pigments 
+        that can expand or contract, enabling the octopus to produce multiple colours and patterns. Other specialised structures 
+        in their skin also assist them in changing the way light is reflected.
+        </p>
+
+        <p>This remarkable form of camouflage is not only captivating to observe but also showcases the complex biology and control 
+        of their nervous system.
+        </p>
+
+        `
+    }
+
 ];
+
 
 
 /* =========================================================
@@ -941,15 +1378,41 @@ function displayArticles() {
     const filteredArticles =
         articles.filter(article => {
 
-            const matchesCategory =
-                selectedCategory === "All" ||
-                article.category === selectedCategory;
+            const categories = Array.isArray(article.category)
+                ? article.category
+                : [article.category];
+
+
+            let matchesCategory = false;
+
+
+            if (selectedCategory === "All") {
+
+                matchesCategory = true;
+
+            } else if (selectedCategory === "All Translations") {
+
+                matchesCategory =
+                    categories.includes("Translation");
+
+            } else {
+
+                matchesCategory =
+                    categories.includes(selectedCategory);
+
+            }
 
 
             const matchesSearch =
                 article.title.toLowerCase().includes(searchTerm) ||
-                article.category.toLowerCase().includes(searchTerm) ||
+
+                categories
+                    .join(" ")
+                    .toLowerCase()
+                    .includes(searchTerm) ||
+
                 article.excerpt.toLowerCase().includes(searchTerm) ||
+
                 article.author.toLowerCase().includes(searchTerm);
 
 
@@ -997,12 +1460,17 @@ function displayArticles() {
         });
 
 
+        const categories = Array.isArray(article.category)
+            ? article.category
+            : [article.category];
+
+
         card.innerHTML = `
 
             <div class="article-image">
 
                 <span class="article-category">
-                    ${article.category}
+                    ${categories.join(" • ")}
                 </span>
 
                 <img
@@ -1030,6 +1498,14 @@ function displayArticles() {
                     <span>
                         By ${article.author}
                     </span>
+
+                    ${
+                        article.translator
+                            ? `<span>
+                                Translated by ${article.translator}
+                               </span>`
+                            : ""
+                    }
 
                     <span class="read-more">
                         Read →
@@ -1091,5 +1567,3 @@ searchInput.addEventListener(
 ========================================================= */
 
 displayArticles();
-
-

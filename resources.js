@@ -1457,10 +1457,10 @@ if (typeof resources !== "undefined" && Array.isArray(resources)) {
 if (typeof resources !== "undefined" && Array.isArray(resources)) {
     resources.push({
         title: "Exploring the Human Brain Coloring Book",
-        category: "Coloring Book" ,
+        category: "Coloring Pages" ,
         level: "Beginner",
         time: "30-45 minutes",
-        materials: "Pencil, paper, and curiosity",
+        materials: "Crayons, colored pencils, or markers",
         pdf: "resources/explore-brain.pdf", 
         cover: "resources/explore-the-human-brain.png",
         author: "Arwa Arfidi",
@@ -1472,10 +1472,10 @@ if (typeof resources !== "undefined" && Array.isArray(resources)) {
 if (typeof resources !== "undefined" && Array.isArray(resources)) {
     resources.push({
         title: "Alphabet of Jobs Coloring Book",
-        category: "Coloring Book",
+        category: "Coloring Pages",
         level: "Beginner",
         time: "90-120 minutes",
-        materials: "Pencil, paper, and curiosity",
+        materials: "Crayons, colored pencils, or markers",
         pdf: "resources/alphabet-jobs.pdf", 
         cover: "resources/jobs.png",
         author: "STEM Without Barriers",
@@ -1487,10 +1487,10 @@ if (typeof resources !== "undefined" && Array.isArray(resources)) {
 if (typeof resources !== "undefined" && Array.isArray(resources)) {
     resources.push({
         title: "Ocean Coloring Book",
-        category: "Coloring Book",
+        category: "Coloring Pages",
         level: "Beginner",
         time: "60-80 minutes",
-        materials: "Pencil, paper, and curiosity",
+        materials: "Crayons, colored pencils, or markers",
         pdf: "resources/OCEAN COLOURING BOOK.pdf", 
         cover: "resources/OCEAN COLOURING BOOK.png",
         author: "STEM Without Barriers",
@@ -1498,4 +1498,35 @@ if (typeof resources !== "undefined" && Array.isArray(resources)) {
             "A creative STEM coloring book designed to highlight different aspects of the ocean in a fun and cute way."
     });
 }
+// Add missing resource to the resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+        title: "Enchanted Forest Colouring Book",
+        category: "Coloring Pages",
+        level: "Beginner",
+        time: "60-80 minutes",
+        materials: "Crayons, colored pencils, or markers",
+        pdf: "resources/enchanted.pdf", 
+        cover: "resources/enchanted.png",
+        author: "Arwa Afridi",
+        description:
+            "A creative STEM coloring book designed to highlight different aspects of the ocean in a fun and cute way."
+    });
+}
+// Coloring page resource to resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+        title: "The Brain Coloring Page" ,
+        category: "Coloring Pages" ,
+        level: "Beginner" ,
+        time: "25-45 minutes" ,
+        materials: "Crayons, colored pencils, or markers" ,
+        pdf: "resources/braincoloring.png" ,
+        cover: "resources/braincoloring.png" ,
+        author: "Astha Agnihotri" ,
+        description:
+        " A creative STEM coloring page designed to teach and highlight the different aspects of the brain in a fun and cute way."
 
+
+    })
+}

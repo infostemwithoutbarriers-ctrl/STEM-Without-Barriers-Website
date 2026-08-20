@@ -211,6 +211,10 @@ if (selectedArticle) {
     document.title =
         `${selectedArticle.title} | STEM Without Barriers`;
 
+    document.getElementById(
+    "articleTitle"
+    ).textContent =
+    selectedArticle.title;
 
     document.getElementById(
         "articleCategory"
@@ -224,28 +228,33 @@ if (selectedArticle) {
 
 
     document.getElementById(
-        "articleTitle"
-    ).textContent =
-        selectedArticle.title;
+    "articleMeta"
+).innerHTML = `
 
+    <span>
+        By <strong>${selectedArticle.author}</strong>
+    </span>
 
-    document.getElementById(
-        "articleMeta"
-    ).innerHTML = `
+    ${
+        selectedArticle.translator
+            ? `
+                <span class="translator-credit">
+                    Translated by
+                    <strong>${selectedArticle.translator}</strong>
+                </span>
+              `
+            : ""
+    }
 
-        <span>
-            By <strong>${selectedArticle.author}</strong>
-        </span>
+    <span>
+        ${selectedArticle.date}
+    </span>
 
-        <span>
-            ${selectedArticle.date}
-        </span>
+    <span>
+        ${selectedArticle.readTime}
+    </span>
 
-        <span>
-            ${selectedArticle.readTime}
-        </span>
-
-    `;
+`;
 
 
     const articleImage =
