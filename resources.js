@@ -164,6 +164,7 @@ const resources = [
         description:
             "A scholarship opportunity for students interested in pursuing education and future careers in STEM."
     },
+    
 
 
     /* =====================================================
@@ -1528,5 +1529,80 @@ if (typeof resources !== "undefined" && Array.isArray(resources)) {
         " A creative STEM coloring page designed to teach and highlight the different aspects of the brain in a fun and cute way."
 
 
-    })
+    });
+}
+
+// Scholarship resource to resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+      title: "D.O.O.R.S. - Diversification of Our Research Scientists Scholarship",
+      category: "Scholarships",
+      level: "Undergraduates",
+      time: "15 minutes",
+      materials: "Application materials",
+      deadline: "2026-09-30",
+      applyLink: "https://www.promega.com/global/doors-program/",
+      pdf: "resources/scholarshipd.o.o.r.s.png",
+      cover: "resources/d.o.o.r.s.png",
+      description:
+            "The BTCI and Promega Diversification of Our Research Scientists (DOORS) Award supports individuals who are at least 18 years old and are researchers or scientists currently enrolled in a life-science undergraduate programme."
+
+
+    });
+}
+
+// Scholarship resource to resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+      title: "Scarlette Family Foundation Scholarship",
+      category: "Scholarships",
+      level: "High School",
+      time: "15 minutes",
+      materials: "Application materials",
+      deadline: "2026-12-15",
+      applyLink: "https://www.scarlettfoundation.org/students/",
+      pdf: "resources/scholarshipscarlette.png",
+      cover: "resources/scarlette.png",
+      description:
+            "The Scarlett Family Foundation Scholarship supports Tennessee students pursuing business or STEM-related degrees at four-year, nonprofit colleges or universities."
+
+    });
+}
+
+// Scholarship resource to resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+      title: "Golden Door Scholars Scholarship",
+      category: "Scholarships",
+      level: "High School",
+      time: "15 minutes",
+      materials: "Application materials",
+      deadline: "2026-10-31",
+      applyLink: "https://www.roadtohire.org/golden-door-scholars",
+      pdf: "resources/scholarshipgolden.png",
+      cover: "resources/golden.png",
+      description:
+            "The Golden Door Scholarship supports underrepresented students with scholarships worth up to full tuition at participating colleges. Exact award amounts may vary."
+
+
+    });
+}
+
+// Scholarship resource to resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+      title: "SBB Reserach Group STEM Scholarship",
+      category: "Scholarships",
+      level: "Varies",
+      time: "15 minutes",
+      materials: "Application materials",
+      deadline: "2026-08-31",
+      applyLink: "https://www.sbbscholarship.com",
+      pdf: "resources/scholarshipsbb.png",
+      cover: "resources/sbb.png",
+      description:
+            "The SBB Research Group STEM Scholarship encourages and empowers students to create significant value and new opportunities for society through higher learning, especially through interdisciplinary combinations of Science, Technology, Engineering, and Mathematics (STEM)."
+
+
+    });
 }

@@ -478,6 +478,60 @@ const articles = [
     },
 
      {
+        id: "music-head",
+        title: "Why Does Music Get Stuck In Your Head?",
+        category: ["Science", "Art", "Biology"],
+        author: "Arwa Arfidi",
+        date: "August 17, 2026",
+        readTime: "8 min read",
+        image: "Blog/musichead.png",
+        excerpt:
+            "We've all seen the dramatic images of volcanic eruptions, but what causes them to happen?",
+        content: `
+
+        <h2>Mystery of the Catchy Tune </h2>
+
+        <p>Have you ever listened to a song and later found yourself hearing the same melody in your head, 
+        even though the music has stopped? This strange but common experience happens to many people.
+        </p>
+
+        <p>Scientists have a name for it: an “earworm.” But don’t worry—it has nothing to do with an actual 
+        worm! An earworm is connected to the way our brains process, remember, and replay music.
+        </p>
+
+        <h4>So, what exactly is an earworm, and why does it happen? Let’s find out!</h4>
+
+        <h2>What Is an "Earworm"?</h2>
+        
+        <p>
+        An earworm is when a song, melody, or part of a song keeps playing in your head even though the music 
+        has stopped. Scientists call this involuntary musical imagery. This happens because our brain can store 
+        and replay musical patterns from memory.
+        </p>
+
+        <p>Catchy songs are especially likely to become earworms because they often contain repetition, simple 
+        melodies, and strong rhythms.
+        </p>
+
+        <p>Earworms can appear while you're studying, walking, or even doing something completely unrelated to music. 
+        Your brain may simply bring the melody back to your attention without you intentionally thinking about it.
+        </p>
+
+        <h2>Why Does It Happen?</h2>
+
+        <p>Our brains are naturally good at recognizing and remembering patterns. Music contains many 
+        patterns, such as rhythm, repetition, and melody, which can make certain songs easier to remember.
+        </p>
+
+        <p>When we hear a catchy song repeatedly, our brain may store its musical pattern in memory. Later, 
+        the brain can replay that pattern without the song actually playing. This is why a simple tune or 
+        even a few seconds of a song can sometimes stay in your mind for a long time.
+        </p>
+
+        `
+    },
+
+     {
         id: "immune-system",
         title: "The Immune System: How Your Body Protects You",
         category: ["Science", "Biology", "Medical"],
