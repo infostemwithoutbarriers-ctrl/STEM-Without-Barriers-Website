@@ -14,7 +14,7 @@ const articles = [
         id: "science-colour",
         title: "The Science of Colour",
         category: "Science",
-        author: "Arwa Arfidi",
+        author: "Arwa Afridi",
         date: "August 26, 2026",
         readTime: "8 min read",
         image: "Blog/science-of-colour.png",
@@ -189,58 +189,6 @@ const articles = [
 
         `
     },
-
-
-    {
-        id: "ocean",
-        title: "Can We Turn Ocean Water into Drinking Water?",
-        category: "Science",
-        author: "Arwa Afridi",
-        date: "August 10, 2026",
-        readTime: "6 min read",
-        image: "Blog/ocean-drinking.png",
-        excerpt:
-            "We all know that the ocean covers most of our planet, but can we actually drink it?",
-        content: `
-
-        <h2>The Ocean: A Hidden Source of Freshwater</h2>
-
-        <p>Earth is covered by ocean, but most ocean water is too salty to drink.
-        So, how can we turn it into freshwater? Scientists use desalination to remove sat and other 
-        impurities from seawater. With the help of STEM, this technology could provide freshwater to communities facing water shortages.
-        </p>
-
-        <h2>How Does Desalination Work?</h2>
-        
-        <p>
-        Desalination is the process of turning salty seawater into freshwater. One of the most common methods is reverse osmosis.
-        In this process, seawater is pushed through a special membrane. The tiny pores allow. water molecules to pass 
-        through while blocking most of the salt and other impurities. This leaves us with cleaner, usable freshwater.
-        </p>
-
-        <h2>The STEM Behind It</h2>
-        
-        <p>
-        Desalination brings together science, technology, engineering, and mathematics to solve real-world problem. 
-        Scientists study how salt and water behave, while engineers design systems that can filter huge amounts of seawater.
-        Technology makes the process faster and more efficient, helping provide freshwater where it is needed most.
-        </p>
-
-        <h2>Why is Desalination Important?</h2>
-        
-        <p>
-        Desalination can provide freshwater in places where clean water is limited. It can help communities during droughts
-        and reduce pressure on natural freshwater sources. 
-        </p>
-
-        <h4>
-        As technology improves, desalination could become an important part 
-        of creating a more water secure future. 
-        </h4>
-
-        `
-    },
-
 
     {
         id: "gene-trait",
