@@ -1464,7 +1464,7 @@ if (typeof resources !== "undefined" && Array.isArray(resources)) {
         materials: "Crayons, colored pencils, or markers",
         pdf: "resources/explore-brain.pdf", 
         cover: "resources/explore-the-human-brain.png",
-        author: "Arwa Arfidi",
+        author: "Arwa Afridi",
         description:
             "A creative STEM Coloring Book designed to introduce students to the Human Brain in an informational and fun way."
     });
@@ -1514,24 +1514,6 @@ if (typeof resources !== "undefined" && Array.isArray(resources)) {
             "A creative STEM coloring book designed to highlight different aspects of the ocean in a fun and cute way."
     });
 }
-// Coloring page resource to resources array
-if (typeof resources !== "undefined" && Array.isArray(resources)) {
-    resources.push({
-        title: "The Brain Coloring Page" ,
-        category: "Coloring Pages" ,
-        level: "Beginner" ,
-        time: "25-45 minutes" ,
-        materials: "Crayons, colored pencils, or markers" ,
-        pdf: "resources/braincoloring.png" ,
-        cover: "resources/braincoloring.png" ,
-        author: "Astha Agnihotri" ,
-        description:
-        " A creative STEM coloring page designed to teach and highlight the different aspects of the brain in a fun and cute way."
-
-
-    });
-}
-
 // Scholarship resource to resources array
 if (typeof resources !== "undefined" && Array.isArray(resources)) {
     resources.push({
@@ -1591,7 +1573,7 @@ if (typeof resources !== "undefined" && Array.isArray(resources)) {
 // Scholarship resource to resources array
 if (typeof resources !== "undefined" && Array.isArray(resources)) {
     resources.push({
-      title: "SBB Reserach Group STEM Scholarship",
+      title: "SBB Research Group STEM Scholarship",
       category: "Scholarships",
       level: "Varies",
       time: "15 minutes",
@@ -1602,6 +1584,81 @@ if (typeof resources !== "undefined" && Array.isArray(resources)) {
       cover: "resources/sbb.png",
       description:
             "The SBB Research Group STEM Scholarship encourages and empowers students to create significant value and new opportunities for society through higher learning, especially through interdisciplinary combinations of Science, Technology, Engineering, and Mathematics (STEM)."
+
+
+    });
+}
+
+// Scholarship resource to resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+      title: "University of Toronto Mississauga International Scholar Award",
+      category: "Scholarships",
+      level: "Undergraduate",
+      time: "15 minutes",
+      materials: "Application materials",
+      deadline: "2026-10-31",
+      applyLink: "https://www.utm.utoronto.ca/future-students/finances/entrance-scholarships",
+      pdf: "Utm.png" ,
+      cover: "resources/toronto.png",
+      description:
+            "A major entrance scholarship for high-achieving international students entering undergraduate study at U of T Mississauga. The award helps cover the cost of a student's education over multiple years."
+
+
+    });
+}
+
+// Scholarship resource to resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+      title: "Breakthrough Junior Challenge Scholarship",
+      category: "Scholarships",
+      level: "Undergraduate",
+      time: "15 minutes",
+      materials: "Application materials",
+      deadline: "2026-09-15",
+      applyLink: "https://breakthroughjuniorchallenge.org/",
+      pdf: "resources/bjc.png",
+      cover: "resources/breakthrough.png",
+      description:
+            "A global science-video competition where students explain an important concept or idea in physics, mathematics, or life sciences through a short, engaging video. The winning student receives a post-secondary scholarship."
+
+
+    });
+}
+
+// Scholarship resource to resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+      title: "Lester B. Pearson International Scholarship",
+      category: "Scholarships",
+      level: "Undergraduate",
+      time: "15 minutes",
+      materials: "Application materials",
+      deadline: "2026-11-06",
+      applyLink: "https://future.utoronto.ca/pearson-scholarships",
+      pdf: "resources/pearson.png",
+      cover: "resources/toronto.png",
+      description:
+            "One of the University of Toronto's most prestigious scholarships for exceptional international students. It supports students who demonstrate outstanding academic achievement, creativity, leadership, and potential to contribute positively to their communities."
+
+    });
+}
+
+// Scholarship resource to resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+      title: "UBC International Scholars Program",
+      category: "Scholarships",
+      level: "Undergraduate",
+      time: "15 minutes",
+      materials: "Application materials",
+      deadline: "2026-11-15",
+      applyLink: "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/international-scholars/",
+      pdf: "resources/ubc2.png",
+      cover: "resources/ubc.png",
+      description:
+            "The University of British Columbia's International Scholars Program supports exceptional international students who have strong academic records, leadership experience, and financial need. Students are considered for different awards within the program based on their circumstances and achievements."
 
 
     });

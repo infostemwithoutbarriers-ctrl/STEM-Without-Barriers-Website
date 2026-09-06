@@ -234,7 +234,7 @@
             </div>
 
             <h3>
-                90+
+                100+
             </h3>
 
             <p>
@@ -552,16 +552,37 @@ const locations = [
     },
 
     {
+        name: "Colorado Springs, Colorado",
+        lat: 38.8339,
+        lng: -104.8214
+    },
+
+
+    {
         name: "California",
         lat: 36.7783,
         lng: -119.4179
     },
 
     {
+        name: "San Francisco, California",
+        lat: 37.7749,
+        lng: -122.4194
+    },
+
+
+    {
         name: "New York City, New York",
         lat: 40.7128,
         lng: -74.0060
     },
+
+    {
+        name: "Orlando, Florida",
+        lat: 28.5383,
+        lng: -81.3792
+    },
+
 
     {
         name: "Belle Mead, New Jersey",
@@ -709,6 +730,14 @@ const locations = [
         lat: 49.8951,
         lng: -97.1384
     },
+    /* SOUTH AMERICA */
+
+    {
+        name: "Brasília-DF, Brazil ",
+        lat: -15.793889,
+        lng: -47.882778
+    },
+
 
 
 
@@ -724,6 +753,18 @@ const locations = [
         name: "Tripura, India",
         lat: 23.9408,
         lng: 91.9882
+    },
+
+    {
+        name: "Khatima, Uttarakhand, India",
+        lat: 28.919687,
+        lng: 79.969810
+    },
+
+    {
+        name: "Bhilai, Chhattisgarh, India",
+        lat: 21.2092,
+        lng:  81.4285
     },
 
     {
@@ -834,6 +875,12 @@ const locations = [
         lng: 1.6596
     },
 
+     {
+        name: "Nigeria",
+        lat: 9.0820,
+        lng: 8.6753
+    },
+
     {
         name: "Durban, South Africa",
         lat: -29.8587,
@@ -863,13 +910,12 @@ const locations = [
         lng: 0.4333
     }
 
-];
 
+];
 
 /* =========================================================
    CREATE MAP
    ========================================================= */
-
 const impactMap = L.map(
     "impact-map",
     {
@@ -929,9 +975,7 @@ locations.forEach(
                 }
             )
             .addTo(impactMap);
-
-
-        /* POPUP */
+             /* POPUP */
 
         circle.bindPopup(`
 
@@ -986,7 +1030,6 @@ locations.forEach(
     }
 );
 
-
 /* =========================================================
    RESPONSIVE MAP FIX
    ========================================================= */
@@ -1001,9 +1044,11 @@ setTimeout(
 );
 
 
+
+  
 </script>
 
 
 </body>
 
-</html>
+</html> 

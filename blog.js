@@ -9,11 +9,65 @@
 ========================================================= */
 
 const articles = [
+
+    {
+        id: "science-colour",
+        title: "The Science of Colour",
+        category: "Science",
+        author: "Arwa Arfidi",
+        date: "August 26, 2026",
+        readTime: "8 min read",
+        image: "Blog/science-of-colour.png",
+        excerpt:
+            "We all know that the ocean covers most of our planet, but can we actually drink it?",
+        content: `
+
+        <h2>The World of Colour</h2>
+
+        <p>Colour is an essential part of the world around us, influencing how we see nature, art, objects, 
+        and even digital screens. But colour does not simply come from objects themselves—it begins with light. 
+        When light reaches an object, some wavelengths are absorbed while others are reflected into our eyes.
+        </p>
+
+        <p>Our eyes detect these reflected wavelengths and send signals to the brain, which interprets them as different colours. 
+        This means that seeing colour is actually a fascinating process involving physics, biology, and the human brain.
+        </p>
+
+        <h2>How Light Creates Colour</h2>
+        
+        <p>
+        Desalination is the process of turning salty seawater into freshwater. One of the most common methods is reverse osmosis.
+        In this process, seawater is pushed through a special membrane. The tiny pores allow. water molecules to pass 
+        through while blocking most of the salt and other impurities. This leaves us with cleaner, usable freshwater.
+        </p>
+
+        <h2>Why Do Colours Mix?</h2>
+        
+        <p>
+        Desalination brings together science, technology, engineering, and mathematics to solve real-world problem. 
+        Scientists study how salt and water behave, while engineers design systems that can filter huge amounts of seawater.
+        Technology makes the process faster and more efficient, helping provide freshwater where it is needed most.
+        </p>
+
+        <h2>The Science Behind What We See</h2>
+        
+        <p>
+        Desalination can provide freshwater in places where clean water is limited. It can help communities during droughts
+        and reduce pressure on natural freshwater sources. 
+        </p>
+
+        <h4>Understanding the science behind colour helps us appreciate how physics, biology, and art come together to create the 
+        vibrant world around us.
+        </h4>
+
+        `
+    },
+
     {
         id: "ocean",
         title: "Can We Turn Ocean Water into Drinking Water?",
         category: "Science",
-        author: "Arwa Arfidi",
+        author: "Arwa Afridi",
         date: "August 10, 2026",
         readTime: "6 min read",
         image: "Blog/ocean-drinking.png",
@@ -55,6 +109,204 @@ const articles = [
         As technology improves, desalination could become an important part 
         of creating a more water secure future. 
         </h4>
+
+        `
+    },
+
+    
+    {
+        id: "deja-vu",
+        title: "The Science Behind Déjà Vu",
+        category: "Science",
+        author: "Arwa Afridi",
+        date: "August 19, 2026",
+        readTime: "9 min read",
+        image: "Blog/dejavu.png",
+        excerpt:
+            "Have you ever felt like you've experienced or seen something exactly before, even if it's a completely new situation? This is called Déjà Vu! But what is it exactly?",
+        content: `
+
+        <h2>What is Déjà Vu?</h2>
+
+        <p>Have you ever walked into a place, heard someone say something, or experienced a 
+        moment and suddenly thought, “Wait... I’ve experienced this before”?
+        </p>
+
+        <p>That strange feeling is called déjà vu, a French phrase meaning “already seen.” It is the 
+        sensation that a completely new situation feels strangely familiar, even though you know you 
+        have never experienced it before.
+        </p>
+
+        <p>Déjà vu is surprisingly common and usually lasts only a few seconds. Scientists believe it is 
+        connected to the way our brain processes memories, familiarity, and new experiences.
+        </p>
+
+        <h4>But why does our brain sometimes make the present feel like a memory?</h4>
+
+        <h2>What Happens In Your Brain?</h2>
+        
+        <p>
+        To understand déjà vu, we first need to understand how the brain recognizes familiar experiences. 
+        When you experience something, your brain constantly processes information through your senses. 
+        At the same time, areas involved in memory help determine whether the experience is new or familiar.
+        </p>
+
+        <p>Sometimes, scientists believe these processes can become briefly out of sync. Your brain may 
+        recognize something as familiar before it has correctly identified where that familiarity comes from.
+        </p>
+
+        <p>This can create a strange mismatch:</p>
+
+        <h4>Your brain says: “This feels familiar. ”Your memory says: “But I don't remember this happening.”</h4>
+
+        <p>That brief conflict may be what creates the mysterious sensation we call déjà vu.</p>
+
+        <h2>Why Does Déjà Vu Happen?</h2>
+
+        <p>Scientists have proposed several explanations for déjà vu, but there is no single confirmed cause yet.
+        </p>
+
+        <h4>1. A Memory Mix-Up</h4>
+
+        <p>One theory suggests that your brain may accidentally recognize similarities between a new situation and an 
+        old memory. Even if you cannot remember the original experience, your brain may still produce a feeling of 
+        familiarity.
+        </p>
+
+        <h4>2. A Timing Difference</h4>
+
+        <p>Another idea is that different parts of the brain may process information at slightly different 
+        speeds. If one part registers an experience as familiar just before another processes it fully, the 
+        moment could feel strangely familiar.
+        </p>
+
+        <h4>3. The Brain Detecting Similarities</h4>
+
+        <p>Sometimes a new place or situation may have small details that resemble something you've 
+        experienced before. Your brain can notice these similarities without you consciously realizing it, 
+        creating the powerful feeling of “I've been here before.
+        </p>
+
+        `
+    },
+
+
+    {
+        id: "ocean",
+        title: "Can We Turn Ocean Water into Drinking Water?",
+        category: "Science",
+        author: "Arwa Afridi",
+        date: "August 10, 2026",
+        readTime: "6 min read",
+        image: "Blog/ocean-drinking.png",
+        excerpt:
+            "We all know that the ocean covers most of our planet, but can we actually drink it?",
+        content: `
+
+        <h2>The Ocean: A Hidden Source of Freshwater</h2>
+
+        <p>Earth is covered by ocean, but most ocean water is too salty to drink.
+        So, how can we turn it into freshwater? Scientists use desalination to remove sat and other 
+        impurities from seawater. With the help of STEM, this technology could provide freshwater to communities facing water shortages.
+        </p>
+
+        <h2>How Does Desalination Work?</h2>
+        
+        <p>
+        Desalination is the process of turning salty seawater into freshwater. One of the most common methods is reverse osmosis.
+        In this process, seawater is pushed through a special membrane. The tiny pores allow. water molecules to pass 
+        through while blocking most of the salt and other impurities. This leaves us with cleaner, usable freshwater.
+        </p>
+
+        <h2>The STEM Behind It</h2>
+        
+        <p>
+        Desalination brings together science, technology, engineering, and mathematics to solve real-world problem. 
+        Scientists study how salt and water behave, while engineers design systems that can filter huge amounts of seawater.
+        Technology makes the process faster and more efficient, helping provide freshwater where it is needed most.
+        </p>
+
+        <h2>Why is Desalination Important?</h2>
+        
+        <p>
+        Desalination can provide freshwater in places where clean water is limited. It can help communities during droughts
+        and reduce pressure on natural freshwater sources. 
+        </p>
+
+        <h4>
+        As technology improves, desalination could become an important part 
+        of creating a more water secure future. 
+        </h4>
+
+        `
+    },
+
+
+    {
+        id: "gene-trait",
+        title: "How Genes Influence Our Traits Our Genetic Code",
+        category: "Science",
+        author: "Arwa Afridi",
+        date: "August 25, 2026",
+        readTime: "7 min read",
+        image: "Blog/genes.png",
+        excerpt:
+            "We all know that the ocean covers most of our planet, but can we actually drink it?",
+        content: `
+
+        <h2>Our Genetic Code</h2>
+
+        <p>Every living person carries a unique genetic code inside their cells. Genes are small 
+        sections of DNA that contain instructions for how our bodies grow, develop, and function. We inherit 
+        genes from both of our parents, which is why we often share certain characteristics with our family members. 
+        Genes can influence traits such as eye colour, hair type, blood type, and many other biological features.
+        </p>
+
+        <p>You can think of DNA as a huge instruction manual, with each gene providing specific 
+        information that helps our bodies work. Although genes are incredibly small, they have a
+        major role in shaping who we are.
+        </p>
+
+        <h2>Genes & Traits</h2>
+        
+        <p>Traits are the characteristics that make each person biologically unique. They can include 
+        features such as eye colour, hair type, blood type, and many other characteristics. Genes influence traits 
+        by carrying instructions for making proteins that help our bodies grow and function.
+        </p>
+
+        <p>We inherit different versions of genes from our parents, and these different versions can contribute 
+        to differences between individuals. This is why family members may share certain traits while still having 
+        their own unique characteristics.
+        </p>
+
+        <h2>Genes + Environment</h2>
+        
+        <p>
+        Genes are an important part of what makes us who we are, but they do not work alone. Our environment can 
+        also influence how some traits develop. Factors such as nutrition, sunlight, physical activity, and our 
+        surroundings can interact with our genetic information.
+        </p>
+
+        <p>For example, genes can influence our potential height, while nutrition and overall conditions can affect 
+        how much we grow. This shows how nature and nurture work together to influence our characteristics.
+        </p>
+
+        <h2>The Big Picture?</h2>
+        
+        <p>
+        Genes may be tiny, but they have a powerful influence on our lives. They are sections of DNA that carry 
+        instructions for how our bodies grow, develop, and function. We inherit genetic information from our parents, 
+        which helps explain why we may share certain characteristics with our families.
+        </p>
+
+        <p>However, genes do not determine everything about us. Our environment, experiences, nutrition, and surroundings 
+        can also influence how some traits develop. This interaction between genes and the environment helps explain 
+        why every person is different, even within the same family.
+        </p>
+
+        <p>Understanding genetics allows scientists to discover more about inheritance, human development, and the 
+        incredible biological diversity of life.
+        </p>
 
         `
     },
@@ -322,7 +574,7 @@ const articles = [
         id: "What-is-ai",
         title: "What is Artificial Intelligence?",
         category: "AI",
-        author: "Arwa Arfidi",
+        author: "Arwa Afridi",
         date: "August 6, 2026",
         readTime: "2 min read",
         image: "Blog/what-is-ai.png",
@@ -352,7 +604,7 @@ const articles = [
         id: "green-movement",
         title: "Join The Green Movement",
         category: ["Science", "Biology"],
-        author: "Arwa Arfidi",
+        author: "Arwa Afridi",
         date: "August 11, 2026",
         readTime: "4 min read",
         image: "Blog/green-movement.png" ,
@@ -451,7 +703,7 @@ const articles = [
         id: "volcanos",
         title: "What Causes Volcanos to Erupt?",
         category: "Science",
-        author: "Arwa Arfidi",
+        author: "Arwa Afridi",
         date: "August 6, 2026",
         readTime: "2 min read",
         image: "Blog/volcano.png",
@@ -481,7 +733,7 @@ const articles = [
         id: "music-head",
         title: "Why Does Music Get Stuck In Your Head?",
         category: ["Science", "Art", "Biology"],
-        author: "Arwa Arfidi",
+        author: "Arwa Afridi",
         date: "August 17, 2026",
         readTime: "8 min read",
         image: "Blog/musichead.png",
@@ -535,7 +787,7 @@ const articles = [
         id: "immune-system",
         title: "The Immune System: How Your Body Protects You",
         category: ["Science", "Biology", "Medical"],
-        author: "Arwa Arfidi",
+        author: "Arwa Afridi",
         date: "August 17, 2026",
         readTime: "4 min read",
         image: "Blog/immunity.png" ,
@@ -642,7 +894,7 @@ const articles = [
         id: "science-behind-rainbows",
         title: "The Hidden Science Behind Rainbows",
         category: "Science",
-        author: "Arwa Arfidi",
+        author: "Arwa Afridi",
         date: "August 6, 2026",
         readTime: "2 min read",
         image: "Blog/rainbow.png",
@@ -680,7 +932,7 @@ const articles = [
         id: "ai-budget",
         title: "AI On a Budget",
         category: "AI",
-        author: "Arwa Arfidi",
+        author: "Arwa Afridi",
         date: "August 9, 2026",
         readTime: "10 min read",
         image: "Blog/ai-on-a-budget.png",
@@ -1201,7 +1453,7 @@ const articles = [
         id: "cognitive-bias",
         title: "Why Do Icebergs Float?",
         category: ["Science", "Physics"],
-        author: "Arwa Arfidi",
+        author: "Arwa Afridi",
         translator: null ,
         date: "August 13, 2026",
         readTime: "8-10 min read",
