@@ -9,6 +9,219 @@
 ========================================================= */
 
 const articles = [
+    {
+        id: "chem_crystal",
+        title: "The Chemistry of Crystals",
+        category: ["Chemistry","Science"],
+        author: "Arwa Afridi",
+        date: "August 30, 2026",
+        readTime: "10 min read",
+        image: "Blog/chem_crystal.png",
+        excerpt:
+            "Crystal Formation: A look at the amazing science behind crystals and their formation.",
+        content: `
+        
+        <h2>What Are Crystals?</h2>
+
+        <p>Crystals are fascinating solid materials made up of atoms, ions, or molecules arranged in a 
+        very organised and repeating pattern. Unlike many ordinary solids, the particles inside a crystal 
+        follow a specific structure that continues throughout the material. This organised arrangement 
+        is what gives crystals their characteristic shapes, surfaces, and many of their unique properties. 
+        Crystals can be found naturally in rocks and minerals, but they can also form from substances such 
+        as salt and sugar.
+        </p>
+
+        <p>Some crystals are colourful and transparent, while others may appear dull or opaque. From the 
+        tiny grains of salt we use in our food to enormous mineral formations found deep within Earth, 
+        crystals are all around us. Their beauty may catch our attention, but it is the science happening 
+        at the microscopic level that makes them truly remarkable.
+        </p>
+
+        <h2>How Do Crystals Form?</h2>
+
+        <p>The formation of a crystal is known as crystallisation, and it occurs when particles come 
+        together and arrange themselves into an organised structure. There are several ways this can happen 
+        in nature. Crystals can form when molten material cools and solidifies, when water containing dissolved 
+        substances evaporates, or when changes in temperature and pressure occur deep beneath Earth's surface.
+        </p>
+
+        <p>For example, when salty water slowly evaporates, the dissolved salt particles become concentrated 
+        until they begin joining together in a repeating pattern, eventually producing salt crystals. Similarly, 
+        minerals can crystallise from hot, molten rock as it cools underground. The speed at which a crystal 
+        forms can also affect its size and appearance. Slow cooling often allows particles more time to arrange 
+        themselves, producing larger crystals, while rapid cooling can result in much smaller crystals.
+        </p>
+
+        <h2>The Hidden Structure Inside Crystals</h2>
+
+        <p>Although a crystal may look simple from the outside, its interior contains an incredibly organised 
+        microscopic structure. The particles within a crystal are arranged in a repeating three-dimensional 
+        pattern known as a crystal lattice. The smallest repeating section of this structure is called a unit cell. 
+        This unit cell is repeated again and again in different directions, eventually creating the complete crystal 
+        structure. The exact arrangement depends on the substance and the types of particles it contains.
+        </p>
+
+        <p>For example, in a crystal of sodium chloride, commonly known as table salt, sodium ions and chloride 
+        ions are arranged in a regular pattern. Scientists can study these structures using techniques such as 
+        X-ray crystallography, which helps them understand the positions of atoms inside materials. This microscopic 
+        organisation is one of the main reasons crystals can have such predictable and interesting properties.
+        </p>
+
+        <h2>Crystals in Our Everyday World</h2>
+
+        <p>Crystals are much more than beautiful minerals displayed in jewellery shops or museums. They play an 
+        important role in our everyday lives and in modern science and technology. Quartz, for example, is used 
+        in watches and electronic devices because of its useful electrical properties. Crystalline materials are 
+        also found in computer components, medical equipment, construction materials, and many other technologies. 
+        Everyday substances such as salt and sugar have crystalline structures too.
+        </p>
+
+        <p>Scientists can even create specialised crystals for particular purposes by controlling the 
+        conditions under which they form. Studying crystals allows researchers to understand how matter is 
+        organised and how its structure affects its behaviour. So, the next time you see a sparkling crystal, 
+        remember that its beauty comes from something much deeper—a remarkable world of atoms, chemistry, 
+        and carefully organised structures.
+        </p>
+
+
+        `
+    },
+
+     {
+        id: "What-is-brain-science",
+        title: "What is Brain Science?",
+        category: ["Science", "Biology", "Medical"],
+        author: "Umber Kalia" ,
+        date: "September 2, 2026",
+        readTime: "2 min read",
+        image: "Blog/what-is-brainsci.png",
+        excerpt:
+            "Brain science is the specific study of the nervous system, including the brain, spinal cord and nerves.",
+        content: `
+        
+        <h2>What Are The Core Focus Areas?</h2>
+
+        <p>The core focus areas on brain science are Structure and Function, which is the examination of millions and 
+        billions of nerve cells that connect and communicate to control bodily processes. Behavioral and cognition, 
+        behaviour and cognition explore how physical brain activities create thoughts. Health and Disease, is when 
+        researchers investigate neurological and psychiatric disorders to develop new medical treatments.
+        </p>
+
+        <h2>Possible Future Careers</h2>
+
+        <p>
+        If you are looking to get into brain science here are some careers that you might wanna look further into 
+        if you really enjoy brain science. 
+        </p>
+
+        <h4>Cellular Neuroscience is the study of the behaviour and properties of individual nerve cells and molecules. 
+        Cognitive neuroscience explores how physical brain structure and networks produce high level thinking and language. 
+        Systems Neuroscience analyse how complex neural critics process different types of sensory and motor information. 
+        </h4>
+
+        `
+    }, 
+
+     {
+        id: "water-vapour-clouds",
+        title: "How Does Water Vapour Transform Into the Clouds We",
+        category: "Science",
+        author: "Arwa Afridi" ,
+        date: "August 26, 2026",
+        readTime: "8 min read",
+        image: "Blog/vapour.png",
+        excerpt:
+            "Cloud formation begins with a process called evaporation. When sunlight warms oceans, rivers, lakes, puddles, and other sources of water, some of the liquid water gains enough energy to change into an invisible gas called water vapour.",
+        content: `
+        
+        <h2>The Journey Begins</h2>
+
+        <p>This water vapour mixes with the surrounding air and rises into the atmosphere along with warm air. As the warm 
+        air rises higher above Earth's surface, it encounters cooler temperatures. This upward journey is the first important 
+        step in the formation of a cloud.Although we cannot normally see water vapour, it is constantly moving through the 
+        atmosphere as part of Earth's continuous water cycle.
+        </p>
+
+        <h2>The Air Starts To Cool</h2>
+
+        <p>
+        As warm, moist air continues to rise, the surrounding atmospheric pressure decreases and the 
+        air expands. As it expands, it cools down. Cooler air cannot hold as much water vapour as warmer 
+        air, so eventually the air reaches a point where it becomes saturated. At this stage, the water 
+        vapour begins to change back into tiny liquid water droplets through a process called condensation. 
+        </p>
+
+        <p>These droplets do not simply form in empty air; they usually gather around extremely small 
+        particles such as dust, salt, smoke, or pollen. These particles are called condensation nuclei and provide 
+        surfaces for water vapour to collect around. Millions of tiny droplets can then begin forming together in 
+        the atmosphere.
+        </p>
+
+        <h2>From Droplets To Clouds</h2>
+
+        <p>Once condensation begins, countless tiny water droplets or ice crystals gather together and create a visible 
+        cloud. The droplets are incredibly small, which allows them to remain suspended in the air for long periods of 
+        time. Clouds can have different shapes, sizes, colours, and heights depending on factors such as temperature, 
+        wind, humidity, and the amount of water present in the atmosphere.
+        </p>
+
+        <p>Inside a cloud, droplets can collide with one another and combine to form larger droplets. When these 
+        droplets become too heavy for the surrounding air to support, gravity pulls them downward. They may then reach 
+        Earth's surface as rain, snow, sleet, or hail, depending on the temperature and conditions in the atmosphere.
+        </p>
+
+        <h2>The Never-Ending Water Cycle</h2>
+
+        <p>Cloud formation is only one part of the water cycle, a continuous natural process that keeps water moving around 
+        Earth. After precipitation reaches the ground, water may collect in rivers, lakes, oceans, and underground reservoirs. 
+        When the Sun heats these water sources again, evaporation begins and sends water vapour back into the atmosphere.
+        </p>
+
+        <p>The vapour rises, cools, and condenses to form clouds, beginning the cycle once more. This process is essential for life 
+        because it helps distribute freshwater around the planet and supports plants, animals, and humans. Every cloud we see is
+        therefore part of a much larger journey in which water constantly travels between Earth's surface and the atmosphere.
+        </p>
+
+        `
+    },
+
+     {
+        id: "genetics-passed",
+        title: "How Are Genetics Passed Down?",
+        category: ["Science","Biology"] ,
+        author: "Umber Kalia",
+        date: "September 2, 2026",
+        readTime: "3 min read",
+        image: "Blog/genetics-passed.png",
+        excerpt:
+            "Have you ever heard the term Genetics in science class and have wondered what it actually means?",
+        content: `
+        
+        <h4>Genetics is the study of all living organisms, the characteristics and qualities and how traits are
+        passed down from the parent or parents to the offspring.
+        </h4>
+
+        <h2>Traits Passing</h2>
+
+        <p>Traits are passed down from the parents to the offspring through genes which are made of units of 
+        heredity made up of DNA. DNA holds the instructions for the body, it is packed into structures called 
+        chromosomes. In total a human has 46 chromosomes, 23 from the mom and 23 from the dad during the fertilization. 
+        Specific sections of DNA are called genes, different versions of a gene are called alleles, you receive one 
+        allele for each gene from your mom and one from your father. Alleles can be dominant or recessive. A dominant 
+        allele shows up in a physical trait even if you only inherit one copy, a recessive allele shows up if you 
+        inherit two copies one from the dad and one from the mom. 
+        </p>
+
+        <h2>Chromosomes And How They Work</h2>
+
+        <p>
+        Biological sex is determined by sex chromosomes. Females have two X chromosomes while male have X and Y 
+        chromosomes. Eye colour and blood type are genetic traits that are already programmed into your DNA during the 
+        fertilisation. Acquired traits come from living style and environment. 
+        </p>
+
+        `
+    },
 
     {
         id: "science-colour",
