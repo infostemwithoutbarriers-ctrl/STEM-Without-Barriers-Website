@@ -63,7 +63,7 @@ const resources = [
     /* =====================================================
        EXAMPLE COLORING PAGE
        ===================================================== */
-
+    
     {
         title: "Coloring Book of Feelings and Emotions",
 
@@ -1319,6 +1319,96 @@ window.getResourceDescription =
 window.formatDeadline =
     formatDeadline;
 
+    // Add missing resource to the resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+        title: "Who is Phineas Gage?",
+        category: "STEM Lessons",
+        level: "Beginner",
+        time: "60-75 minutes",
+        materials: "Curiosity, and an open mind",
+        pdf: "resources/phineas_gage.pdf", 
+        cover: "resources/phineas_gage.png",
+        author: "Devika Mathur",
+        description:
+            "A creative STEM lesson designed to highlight the story of Phineas Gage."
+    });
+}
+// Add missing resource to the resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+        title: "Colouring Book: Vehicles Edition",
+        category: "Coloring Pages",
+        level: "Beginner",
+        time: "60-75 minutes",
+        materials: "Crayons, colored pencils, or markers",
+        pdf: "resources/vehicles.pdf", 
+        cover: "resources/train.png",
+        author: "Tan Jing Ning Stacie",
+        description:
+            "A creative STEM coloring book designed to highlight different aspects of vehicles in a fun and cute way."
+    });
+}
+// Add missing resource to the resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+        title: "What Are Alzheimers?",
+        category: "STEM Lessons",
+        level: "Beginner",
+        time: "50-60 minutes",
+        materials: "Curiosity, and an open mind",
+        pdf: "resources/alzehimers.pdf", 
+        cover: "resources/alzeihmers.png",
+        author: "Devika Mathur",
+        description:
+            "A creative STEM lesson designed to highlight the story of Alzheimers and its impact on neuroscience."
+    });
+}
+// Add missing resource to the resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+        title: "Colouring Book: Fruit Series",
+        category: "Coloring Pages",
+        level: "Beginner",
+        time: "60-75 minutes",
+        materials: "Crayons, colored pencils, or markers",
+        pdf: "resources/fruitcoloring.pdf", 
+        cover: "resources/fruit.png",
+        author: "Tan Jing Ning Stacie",
+        description:
+            "A creative STEM coloring book designed to highlight different animals in a fun and cute way."
+    });
+}
+// Add missing resource to the resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+        title: "What Are Strokes?",
+        category: "STEM Lessons",
+        level: "Beginner",
+        time: "40-50 minutes",
+        materials: "Curiosity, and an open mind",
+        pdf: "resources/stroke.pdf", 
+        cover: "resources/stroke.png",
+        author: "Devika Mathur",
+        description:
+            "A creative STEM lesson designed to highlight what a stroke is and its impact."
+    });
+}
+// Add missing resource to the resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+        title: "Why We Compare Ourselves to Others",
+        category: "STEM Lessons",
+        level: "Beginner",
+        time: "8 minutes",
+        materials: "Open mind, and curiosity",
+        pdf: "resources/compare_judgement.pdf", 
+        cover: "resources/compare_judgement.png",
+        author: "Rovelyn Debbie L. Marzan",
+        description:
+            "A creative STEM lesson designed to highlight why we may compare ourselves to others."
+    });
+}
 // Add missing resource to the resources array
 if (typeof resources !== "undefined" && Array.isArray(resources)) {
     resources.push({
@@ -1661,5 +1751,35 @@ if (typeof resources !== "undefined" && Array.isArray(resources)) {
             "The University of British Columbia's International Scholars Program supports exceptional international students who have strong academic records, leadership experience, and financial need. Students are considered for different awards within the program based on their circumstances and achievements."
 
 
+    });
+}
+// Add missing resource to the resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+        title: "Amazing Animals Colouring Book",
+        category: "Coloring Pages",
+        level: "Beginner",
+        time: "60-75 minutes",
+        materials: "Crayons, colored pencils, or markers",
+        pdf: "resources/amazing_animals.pdf", 
+        cover: "resources/amazing_animals.png",
+        author: "Tan Jing Ning Stacie",
+        description:
+            "A creative STEM coloring book designed to highlight different animals in a fun and cute way."
+    });
+}
+// Add missing resource to the resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+        title: "Why Do We Dream?",
+        category: "STEM Lessons",
+        level: "Beginner",
+        time: "5 minutes",
+        materials: "Open mind, and curiosity",
+        pdf: "resources/whydowedream.pdf", 
+        cover: "resources/whydowedream.png",
+        author: "Abiha",
+        description:
+            "A creative STEM lesson designed to highlight what dreaming is, and why we do it."
     });
 }
