@@ -1367,6 +1367,21 @@ if (typeof resources !== "undefined" && Array.isArray(resources)) {
 // Add missing resource to the resources array
 if (typeof resources !== "undefined" && Array.isArray(resources)) {
     resources.push({
+        title: "What is Ovarian Cancer?",
+        category: "STEM Lessons",
+        level: "Beginner",
+        time: "45-60 minutes",
+        materials: "Curiosity, and an open mind",
+        pdf: "resources/causes_ovarian_cancer.pdf", 
+        cover: "resources/ovarian.png",
+        author: "Athena Morella",
+        description:
+            "A creative STEM lesson designed to highlight the story of Ovarian Cancer and its impact on healthcare."
+    });
+}
+// Add missing resource to the resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
         title: "Colouring Book: Fruit Series",
         category: "Coloring Pages",
         level: "Beginner",
@@ -1397,6 +1412,51 @@ if (typeof resources !== "undefined" && Array.isArray(resources)) {
 // Add missing resource to the resources array
 if (typeof resources !== "undefined" && Array.isArray(resources)) {
     resources.push({
+        title: "All About Ferns",
+        category: "STEM Lessons",
+        level: "Beginner",
+        time: "45-50 minutes",
+        materials: "Curiosity, and an open mind",
+        pdf: "resources/ferns.pdf", 
+        cover: "resources/ferns.png",
+        author: "Akanji Omobolanle Ayomide",
+        description:
+            "A creative STEM lesson designed to highlight the characteristics and importance of ferns."
+    });
+}
+// Add missing resource to the resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+        title: "Let's Talk About Chickenpox",
+        category: "STEM Lessons",
+        level: "Beginner",
+        time: "45-50 minutes",
+        materials: "Open mind, and curiosity",
+        pdf: "resources/chicken_pox.pdf", 
+        cover: "resources/chicken_pox.png",
+        author: "Athena Morella",
+        description:
+            "A creative STEM lesson designed to explain what chickenpox is and how to manage it."
+    });
+}
+// Add missing resource to the resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+        title: "You Need to Know Heart Disease",
+        category: "STEM Lessons",
+        level: "Beginner",
+        time: "40-50 minutes",
+        materials: "Curiosity, and an open mind",
+        pdf: "resources/causes_heart_disease.pdf", 
+        cover: "resources/heart_disease.png",
+        author: "Athena Morella",
+        description:
+            "A creative STEM lesson designed to talk about the causes of heart disease."
+    });
+}
+// Add missing resource to the resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
         title: "Why We Compare Ourselves to Others",
         category: "STEM Lessons",
         level: "Beginner",
@@ -1407,6 +1467,66 @@ if (typeof resources !== "undefined" && Array.isArray(resources)) {
         author: "Rovelyn Debbie L. Marzan",
         description:
             "A creative STEM lesson designed to highlight why we may compare ourselves to others."
+    });
+}
+// Add missing resource to the resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+        title: "Radio Electronics",
+        category: "STEM Lessons",
+        level: "Beginner",
+        time: "30-45 minutes",
+        materials: "Open mind, and curiosity",
+        pdf: "resources/radio_electronics.pdf", 
+        cover: "resources/radio_electronics.png",
+        author: "Burulai Shamshieva",
+        description:
+            "A creative STEM lesson designed to highlight the characteristics and importance of radio electronics."
+    });
+}
+// Add missing resource to the resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+        title: "What is Tissue Engineering?",
+        category: "STEM Lessons",
+        level: "Beginner",
+        time: "30-40 minutes",
+        materials: "Open mind, and curiosity",
+        pdf: "resources/tissue_engineering.pdf", 
+        cover: "resources/tissue_engineering.png",
+        author: "Ishani Sujera",
+        description:
+            "A creative STEM lesson designed to highlight the characteristics and importance of radio electronics."
+    });
+}
+// Add missing resource to the resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+        title: "What Are Skin Allergy Tests?",
+        category: "STEM Lessons",
+        level: "Beginner",
+        time: "35-40 minutes",
+        materials: "Open mind, and curiosity",
+        pdf: "resources/skincare.pdf", 
+        cover: "resources/skincare.png",
+        author: "Athena Morella",
+        description:
+            "A creative STEM lesson designed to explain what skin allergy tests are and their importance in healthcare."
+    });
+}
+// Add missing resource to the resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+        title: "How You Can Perform CPR",
+        category: "STEM Lessons",
+        level: "Beginner",
+        time: "45-50 minutes",
+        materials: "Open mind, and curiosity",
+        pdf: "resources/cpr.pdf", 
+        cover: "resources/cpr.png",
+        author: "Athena Morella",
+        description:
+            "A creative STEM lesson designed to explain what CPR is and how to perform it in emergency situations."
     });
 }
 // Add missing resource to the resources array
@@ -1482,6 +1602,21 @@ if (typeof resources !== "undefined" && Array.isArray(resources)) {
         author: "STEM Without Barriers",
         description:
             "A creative STEM coloring activity designed to highlight different aspects of spring in a fun and cute way."
+    });
+}
+// Add missing resource to the resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+        title: "What is Tourette Sysndrome?",
+        category: "STEM Lessons",
+        level: "Beginner",
+        time: "45-50 minutes",
+        materials: "Open mind, and curiosity",
+        pdf: "resources/ts.pdf", 
+        cover: "resources/ts.png",
+        author: "Athena Morella",
+        description:
+            "A creative STEM lesson designed to explain what Tourette Syndrome is and how to manage it."
     });
 }
 // Add missing resource to the resources array
@@ -1781,5 +1916,20 @@ if (typeof resources !== "undefined" && Array.isArray(resources)) {
         author: "Abiha",
         description:
             "A creative STEM lesson designed to highlight what dreaming is, and why we do it."
+    });
+}
+// Add missing resource to the resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+        title: "What is Alice in Wonderland Syndrome?",
+        category: "STEM Lessons",
+        level: "Beginner",
+        time: "40-50 minutes",
+        materials: "Open mind, and curiosity",
+        pdf: "resources/aiwls.pdf", 
+        cover: "resources/aiwls.png",
+        author: "Athena Morella",
+        description:
+            "A creative STEM lesson designed to explain what Alice in Wonderland Syndrome is and how to manage it."
     });
 }
