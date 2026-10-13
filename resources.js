@@ -1318,7 +1318,21 @@ window.getResourceDescription =
 
 window.formatDeadline =
     formatDeadline;
-
+// Add missing resource to the resources array
+if (typeof resources !== "undefined" && Array.isArray(resources)) {
+    resources.push({
+        title: "Colouring Buildings",
+        category: "Coloring Pages",
+        level: "Beginner",
+        time: "40-50 minutes",
+        materials: "Crayons, colored pencils, or markers",
+        pdf: "resources/colouring_buildings.pdf", 
+        cover: "resources/colouring_buildings.png",
+        author: "Tan Jing Ning Stacie",
+        description:
+            "A creative STEM lesson designed to explain what Alice in Wonderland Syndrome is and how to manage it."
+    });
+}
     // Add missing resource to the resources array
 if (typeof resources !== "undefined" && Array.isArray(resources)) {
     resources.push({

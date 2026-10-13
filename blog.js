@@ -124,7 +124,7 @@ const articles = [
 
      {
         id: "water-vapour-clouds",
-        title: "How Does Water Vapour Transform Into the Clouds We",
+        title: "How Does Water Vapour Transform Into the Clouds We See?",
         category: "Science",
         author: "Arwa Afridi" ,
         date: "August 26, 2026",
